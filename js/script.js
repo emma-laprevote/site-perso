@@ -1,20 +1,3 @@
-
-/*function changeImg() {
-    $('#containerImg').hover(function (e) {
-        var $container = $(this),
-            top = e.type === 'mouseenter' ? -$container.height() : 0;
-        $container.find('#columnImg').stop(true).animate({
-            top: top
-        })
-    })
-
-    setTimeout("changeImg()", 1000)
-}
-
-window.onload = function(){
-    changeImg();
-}*/
-
 function changeImg() {
     $('#changeImg').slideToggle(3000);
     setTimeout("changeImg()", 8000)
@@ -23,4 +6,21 @@ function changeImg() {
 window.onload = function(){
     changeImg();
 }
+
+$('#enterSite').click(function (){
+    $('html').css({
+        backgroundColor: 'white'
+    });
+
+    barba.init ({
+        transitions: [{
+            name: 'opacity-transition' , Leave
+                (data) { return gsap.to (data.current.container, {         opacity: 0       });     },     enter (data) { return gsap. from (data.next.container, {         opacity: 0       });     }   }] });
+
+});
+
+
+
+
+
 
