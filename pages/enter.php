@@ -14,12 +14,13 @@ ob_start();
         </div>
         <div class="contentImg" id="upImg">
             <img src="../images/typoDev.png"  id="typoDevEmma" alt="typographie développeuse web">
-            <a href="#"><img id="imgEnter" src="../images/entrer.png"></a>
+            <a id="enterSite" href="accueil.php"><img id="imgEnter" src="../images/entrer.png"></a>
         </div>
     </div>
     </div>
 </section>
 
+<script type="text/javascript" src="../js/script.js"></script>
 <?php
 $pageContent = ob_get_clean();
 require_once('template.php');
