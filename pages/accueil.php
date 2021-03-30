@@ -40,7 +40,7 @@ ob_start();
             <div id="aboutMe">
                 <div id="linearAboutMe">
                 <h5>EMMA <span id="lastName">Laprevote / 28 ANS / AIX-MARSEILLE</span></h5>
-                <p>Ce n'est pas toujours évident de se présenter en quelques lignes, surtout quand votre parcours est assez atypique.<br>
+                <p>Ce n'est pas toujours évident de se présenter en quelques lignes, surtout quand votre parcours est assez atypique.
                 Le mien commence dans <strong>la communication graphique</strong>, avec l'obtention d'un CAP et d'un BAC PRO en <strong>artisanat et metiers d'art en communication graphique</strong>.
                 Des années merveilleuses qui m'ont permises de développer ma curiosité et mon sens critique pour les <strong>arts visuels</strong> mais aussi de découvrir différents domaines
                 comme le <strong>webdesign</strong> et le <strong>développement web</strong>. <br><br>
@@ -65,6 +65,10 @@ ob_start();
             </div>
         </div>
         </article>
+
+        <section id="project">
+            <div class="project__bg"></div>
+        </section>
 </main>
 
 
