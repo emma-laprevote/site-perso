@@ -36,23 +36,25 @@ ob_start();
         <div id="pictureEmma"></div>
 
         <div id="columnInfos">
-            <a id="linkAboutMe" href="#"><img id="titleAboutMe" src="../images/aboutme.PNG" alt="Titre de la section de présenation"></a>
-            <div id="aboutMe">
-                <div id="linearAboutMe">
-                <h5>EMMA <span id="lastName">Laprevote / 28 ANS / AIX-MARSEILLE</span></h5>
-                <p>Ce n'est pas toujours évident de se présenter en quelques lignes, surtout quand votre parcours est assez atypique.<br>
-                Le mien commence dans <strong>la communication graphique</strong>, avec l'obtention d'un CAP et d'un BAC PRO en <strong>artisanat et metiers d'art en communication graphique</strong>.
-                Des années merveilleuses qui m'ont permises de développer ma curiosité et mon sens critique pour les <strong>arts visuels</strong> mais aussi de découvrir différents domaines
-                comme le <strong>webdesign</strong> et le <strong>développement web</strong>. <br><br>
-                Mon parcours prends au final des chemins opposés, afin d'explorer d'autres horizons, d'autres passions.
-                Mais c'est en 2019 que je décide de rejoindre le monde du <strong>numérique</strong> afin d'associer mes compétences en tant
-                 que <strong>graphiste</strong>, avec celles en tant que <strong>Développeuse full-stack</strong> au sein de l'école <strong>La PLateforme_</strong> basée à Marseille. </p>
-                 </div>
-            </div>
+                <div id="rowTitle">
+                    <div id="tabCaseAbout"><a id="linkAboutMe" href="#aboutMe"><p id="typoAboutMe">about me</p></a></div>
+                    <div id="tabCaseHard"><a id="linkHardSkill" href="#hardSkill"><p id="typoHardSkills">hardskills</p></a></div>
+                </div>
 
-            <a id="linkHardSkill" href="#"><img id="titleHardSkills" src="../images/hardskill.PNG" alt="Titre de la section des compétences techniques"></a>
+           <div id="rowBlock">
+            <div id="aboutMe">
+                <h5>EMMA <span id="lastName">Laprevote / 28 ANS / AIX-MARSEILLE</span></h5>
+
+                <p>En pleine reconversion professionnelle dans le numérique au sein de la <strong>Coding
+                   School à La Plateforme_</strong>, afin de fusionner mes compétences
+                   en <strong>communication graphique</strong> avec celles acquises tout au long de ma formation, dans le <strong>développement web</strong>.<br>
+
+                   </p>
+
+                 <button class="waves-effect black white-text btn" type="submit" onclick="window.open('../pdf/laprevote emma.pdf')"><i class="material-icons left">add</i>Télécharger mon cv</button>
+
+            </div>
             <div id="hardSkill">
-                <div id="iconsRow">
                 <img id="html" class="iconesTech" src="../images/icones/html.png" alt="Icone HTML5">
                 <img id="css" class="iconesTech" src="../images/icones/css.png" alt="Icone CSS3">
                 <img class="iconesTech" src="../images/icones/php.png" alt="Icone PHP">
@@ -61,9 +63,8 @@ ob_start();
                 <img id="js" class="iconesTech" src="../images/icones/js.png" alt="Icone JAVASCRIPT">
                 <img class="iconesTech" src="../images/icones/jquery.png" alt="Icone JQUERY">
                 <img class="iconesTech" src="../images/icones/ubuntu.png" alt="Icone UBUNTU">
-                </div>
             </div>
-        </div>
+            </div>
         </article>
 </main>
 

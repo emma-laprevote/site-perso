@@ -3,18 +3,44 @@ $(document).ready(function(){
 });
 
 // SECTION ABOUT ME/HARDSKILLS
-$('#iconsRow').hide();
+
+//Page accueil inital:
+$('#hardSkill').hide();
+$('#typoAboutMe').css({
+    borderBottom: '1px solid black',
+    opacity: '80%'
+})
+
+//Evenement du le lien Hardskill:
 $('#linkHardSkill').click(function (e){
     e.preventDefault();
-    $('#linearAboutMe').toggle(1000, "linear", function (){
-        $('#iconsRow').fadeTo(1000, 0.9);
+
+    $('#typoAboutMe').removeAttr("style");
+    $('#typoAboutMe').css({
+        'font-family': '"Arial Black", sans-serif, sans-serif'
+    })
+    $('#typoHardSkills').css({
+        borderBottom: '1px solid black',
+        'font-family': 'Arial, sans-serif',
+        opacity: '80%'
+    })
+
+    $('#aboutMe').toggle(1000, "linear", function (){
+        $('#hardSkill').fadeTo(1000, 0.9);
     })
 })
 
 $('#linkAboutMe').click(function (e){
     e.preventDefault();
-    $('#iconsRow').fadeToggle(1000, "linear", function (){
-        $('#linearAboutMe').toggle(1000, "linear");
+
+    $('#typoHardSkills').removeAttr("style");
+    $('#typoAboutMe').css({
+        borderBottom: '1px solid black',
+        'font-family': 'Arial, sans-serif',
+        opacity: '80%'
+    })
+    $('#hardSkill').fadeToggle(1000, "linear", function (){
+        $('#aboutMe').toggle(1000, "linear");
     });
 })
 
@@ -44,6 +70,13 @@ $(window).scroll(function () {
             $('#navEmma').removeAttr("style");
             $('#typoLogoMenu').removeAttr("style");
         }
+});
+
+$(document).ready(function(){
+    $('ul.tabs').tabs({
+        swipeable : true,
+        responsiveThreshold : 1920
+    });
 });
 
 

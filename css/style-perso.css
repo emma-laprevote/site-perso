@@ -13,6 +13,7 @@
     src: url("../font/Kiona-Regular.ttf");
 }
 
+
 html {
     background-color: black;
 }
@@ -198,6 +199,12 @@ header {
     position: relative;
     width: 60%;
     margin-left: 6em;
+    margin-top: -2%;
+}
+
+#rowBlock {
+    display: flex;
+    flex-direction: row;
 }
 
 #pictureEmma {
@@ -206,14 +213,16 @@ header {
     border-right: solid black 1px;
 }
 
-#aboutMe {
-    border-top: solid 1px black;
-}
 
 #titleAboutMe,
 #titleHardSkills{
-    max-width: 22%;
+    max-width: 80%;
     margin-left: -2em;
+    padding-bottom: 2em;
+}
+
+#aboutMe h5 {
+    padding-top: 1em;
 }
 
 #aboutMe p {
@@ -221,6 +230,32 @@ header {
     padding: 0 4em 0 0;
 }
 
+#typoAboutMe {
+    font-family: Arial, sans-serif;
+    font-size: 2.17em;
+    color: black;
+    padding-right: 3px;
+    font-weight: 400;
+}
+
+#typoHardSkills {
+    font-family: "Arial Black", sans-serif, sans-serif;
+    font-size: 2.1em;
+    color: black;
+}
+
+#rowTitle {
+    display: flex;
+    flex-direction: row;
+}
+
+#tabCaseAbout {
+    height: 5em;
+}
+
+#tabCaseHard {
+    height: 5em;
+}
 
 strong {
     font-weight: bold;
@@ -231,7 +266,6 @@ strong {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    border-top: solid 1px black;
     padding-top: 2em;
 }
 
@@ -247,6 +281,8 @@ strong {
 #js{
     width: 6%;
 }
+
+
 
 
 
