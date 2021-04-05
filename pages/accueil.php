@@ -83,7 +83,7 @@ ob_start();
                   </div>
 
                   <div class="selected">
-                    <img src="../images/carousel/livreor.png" alt="page d'accueil projet php livre d'or">
+                     <a id="modalSelected" href="#livreOr"><img src="../images/carousel/livreor.png" alt="page d'accueil projet php livre d'or"></a>
                   </div>
 
                   <div class="next">
@@ -101,8 +101,45 @@ ob_start();
                 </div>
 
         </section>
-</main>
 
+        <!-- Modal Structure selected -->
+             <div id="livreOr" class="modal">
+                <div class="modal__bg"></div>
+                    <div class="modal-footer">
+                         <a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="material-icons white-text">clear</i></a>
+                    </div>
+                 <div class="modal-content">
+                    <!--<div id="bandeau_vertical" class="bandeau_vertical" style=""></div>-->
+                    <div id="bg">
+                       <img id="tab1" src="../images/imagesite/livreor.png"/>
+                       <img id="tab2" src="../images/imagesite/livreor2.png"/>
+                       <img id="tab3" src="../images/imagesite/livreor3.png"/>
+                       <img id="tab4" src="../images/imagesite/livreor4.png"/>
+                    </div>
+
+                    <div class="contentColumn">
+                    <div id="titleProject">
+                        <h2>#LIVRE D'OR</h2>
+                        <p><b>NOISE POLLUTION</b> / PROJET <strong>PHP</strong> / 2019 / GITHUB</p>
+                    </div>
+                    <div class="descriptionProject">
+                        <h4 class="des">Description du projet</h4>
+                        <p>Le projet était de créer un livre d’or permettant aux utilisateurs de laisser
+                           leurs avis sur le site.<br>
+                           Dans un premier temps, je devais créer une base de donnée à l'aide <b>phpMyAdmin</b> et ensuite
+                           créer plusieurs pages avec l'ajout de fonctionnalitées selon si l'utilisateur était connecté ou pas, comme l'ajout de commentaire
+                           pour un utilisateur connecté.
+                        </p>
+                        <h4 class="compet">Compétences / acquis</h4>
+                        <p><b>STRUCTURATION ET FACTORISATION DU CODE</b><br>
+                        PARTITIONNEMENT DES FICHIERS<br>
+                        DECOUVERTE DU FRAMEWORK <strong>MATERIALIZE</strong><br>
+                        CREATION FICHIER TEMPLATE.</p>
+                    </div>
+                    </div>
+                 </div>
+             </div>
+</main>
 
 <script type="text/javascript" src="../js/accueil.js"></script>
 <?php
