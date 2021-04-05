@@ -75,7 +75,6 @@ function moveToSelected(element) {
 
 }
 
-// Eventos teclado
 $(document).keydown(function(e) {
     switch(e.which) {
         case 37: // left
@@ -95,12 +94,12 @@ $('#carousel div').click(function() {
     moveToSelected($(this));
 });
 
-$('#prev').click(function() {
+/*$('#prev').click(function() {
     moveToSelected('prev');
 });
 
 $('#next').click(function() {
     moveToSelected('next');
-});
+});*/
 
 
