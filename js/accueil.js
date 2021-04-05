@@ -17,11 +17,13 @@ $('#linkHardSkill').click(function (e){
 
     $('#typoAboutMe').removeAttr("style");
     $('#typoAboutMe').css({
-        'font-family': '"Arial Black", sans-serif, sans-serif'
+        'font-family': '"Arial Black", sans-serif, sans-serif',
+        'font-size': '1.6em'
     })
     $('#typoHardSkills').css({
         borderBottom: '1px solid black',
         'font-family': 'Arial, sans-serif',
+        'font-size': '1.66em',
         opacity: '80%'
     })
 
@@ -37,6 +39,7 @@ $('#linkAboutMe').click(function (e){
     $('#typoAboutMe').css({
         borderBottom: '1px solid black',
         'font-family': 'Arial, sans-serif',
+        'font-size': '1.66em',
         opacity: '80%'
     })
     $('#hardSkill').fadeToggle(1000, "linear", function (){
@@ -45,7 +48,7 @@ $('#linkAboutMe').click(function (e){
 })
 
 //SECTION STICKY HEADER
-$(window).scroll(function () {
+/*$(window).scroll(function () {
         let w = $(window).scrollTop();
         if (w > 500) {
            $('.header__bg').hide();
@@ -70,7 +73,7 @@ $(window).scroll(function () {
             $('#navEmma').removeAttr("style");
             $('#typoLogoMenu').removeAttr("style");
         }
-});
+});*/
 
 $(document).ready(function(){
     $('ul.tabs').tabs({
