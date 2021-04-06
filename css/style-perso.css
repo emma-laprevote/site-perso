@@ -456,6 +456,22 @@ strong {
     width: 100%;
 }
 
+.linkProject {
+    margin-top: -3em;
+    height: 3em;
+    width: 100%;
+    background-color: black;
+    opacity: 80%;
+    color: white;
+    position: relative;
+    padding: 0.5em 0 0 1em;
+}
+
+.linkProject span {
+    font-family: kiona, sans-serif;
+    opacity: initial;
+}
+
 
 
 
