@@ -72,30 +72,37 @@ ob_start();
             <div id="carousel">
                    <div class="hideLeft">
                     <img src="../images/carousel/ide.png" alt="page d'accueil projet html ide favoris">
+                    <a id="modalSelected" href="#ide"><p class="linkProject"><span>IDE FAVORIS / <strong>HTML5 / CSS3</strong></span></p></a>
                   </div>
 
                   <div class="prevLeftSecond">
                     <img src="../images/carousel/appfav.png" alt="page d'accueil projet html application favorite">
+                    <a id="modalSelected" href="#appfav"><p class="linkProject"><span>APPLICATION FAVORITES / <strong>HTML5 / CSS3</strong></span></p></a>
                   </div>
 
                   <div class="prev">
                     <img src="../images/carousel/slash.png" alt="page d'accueil projet php module-connexion">
+                    <a id="modalSelected" href="#slash"><p class="linkProject"><span>SLASH MAGAZINE / <strong>PHP</strong></span></p></a>
                   </div>
 
                   <div class="selected">
-                     <a id="modalSelected" href="#livreOr"><img src="../images/carousel/livreor.png" alt="page d'accueil projet php livre d'or"></a>
+                     <img src="../images/carousel/livreor.png" alt="page d'accueil projet php livre d'or">
+                     <a id="modalSelected" href="#livreOr"><p class="linkProject"><span>NOISE POLLUTION / <strong>PHP</strong></span></p></a>
                   </div>
 
                   <div class="next">
                     <img src="../images/carousel/discussion.png" alt="page d'accueil projet php discussion">
+                    <a id="modalSelected" href="#discussion"><p class="linkProject"><span>THE FACTORY / <strong>PHP</strong></span></p></a>
                   </div>
 
                   <div class="nextRightSecond">
                     <img src="../images/carousel/blogout.png" alt="page d'accueil projet php blog">
+                    <a id="modalSelected" href="#blogout"><p class="linkProject"><span>BLOGOUT / <strong>PHP</strong></span></p></a>
                   </div>
 
                   <div class="hideRight">
                     <img src="../images/carousel/boutique.png" alt="page d'accueil projet php boutique en ligne">
+                    <a id="modalSelected" href="#jungle"><p class="linkProject"><span>JUNGLE GARDENER / <strong>PHP</strong></span></p></a>
                   </div>
 
                 </div>
