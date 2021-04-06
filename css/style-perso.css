@@ -18,6 +18,8 @@ html {
     background-color: black;
 }
 
+
+
 #welcomeHome {
     width: 90%;
     /*margin: 0 auto;*/
@@ -188,7 +190,7 @@ header {
     flex-direction: row;
     justify-content: normal;
     position: relative;
-    height: 22rem;
+    height: 20rem;
     overflow: hidden;
     background-color: white;
 }
@@ -210,7 +212,6 @@ header {
 #pictureEmma {
     width: 30%;
     height: 30em;
-    border-right: solid black 1px;
 }
 
 #aboutMe{
@@ -224,10 +225,6 @@ header {
     padding-bottom: 2em;
 }
 
-#aboutMe h5 {
-    /*padding-top: 1em;*/
-}
-
 #aboutMe h6 {
     font-family: 'Zilla Slab Highlight', cursive;
     font-size: 1.5em;
@@ -237,7 +234,7 @@ header {
     font-family: 'Archivo Black', sans-serif !important;
     text-transform: uppercase;
     line-height: 0.8em;
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 
 .softS{
@@ -254,12 +251,12 @@ header {
 
 #soft{
     width: 95%;
-    margin-top: -1em;
 }
 
 #aboutMe p {
     font-family: "Roboto Thin", sans-serif;
     padding: 0 2em 0 0;
+    width: 80%;
 }
 
 #aboutMe i {
@@ -306,19 +303,19 @@ strong {
 }
 
 .iconesTech {
-    width: 12%;
-    height: 3em;
+    width: 9%;
+    height: 2em;
     margin-top: 1.5em;
 }
 
 #git {
-    width: 12%;
-    height: 3em;
+    width: 9%;
+    height: 2em;
     margin-top: 1.5em;
 }
 
 #adobe {
-    width: 8%;
+    width: 6%;
 }
 
 .rowColumn {
@@ -329,23 +326,23 @@ strong {
 }
 
 .rowColumn img{
-    margin-right: 6%;
+    margin-right: 7%;
 }
 
 #html,
 #css,
 #composer,
 #js{
-    width: 8%;
+    width: 6%;
 }
 
 #ubuntu {
-    width: 12%;
+    width: 9%;
 }
 
 #jQuery {
-    width: 15%;
-    height: 3em;
+    width: 11%;
+    height: 2em;
     margin-top: 1.5em;
 }
 
@@ -393,8 +390,8 @@ strong {
     background-color: black;
     background-size: cover;
     background-position: top;
-    /*transform: skewY(+6deg);
-    transform-origin: top left;*/
+    transform: skewY(+3deg);
+    transform-origin: top left;
 }
 
 /* CSS CAROUSEL */
@@ -405,7 +402,9 @@ strong {
     top: 50%;
     transform: translateY(-50%);
     overflow: hidden;
+    margin-top: -2em;
 }
+
 #carousel div {
     position: absolute;
     transition: transform 1s, left 1s, opacity 1s, z-index 0s;
@@ -442,6 +441,7 @@ strong {
     left: 30%;
     transform: translateY(50px) translateX(-50%);
 }
+
 .prev img {
     width: 400px;
 }
@@ -643,6 +643,24 @@ strong {
     opacity: initial;
 }
 
+#titleSection {
+    width: 22%;
+    position: relative;
+    margin: 3em 0 0 3em;
+}
+
+#titleSection h4 {
+    font-family: "Arial Black", sans-serif, sans-serif;
+    font-size: 1.6em;
+    padding-bottom: 0.5em;
+    color: white;
+    border-bottom: solid 1px white;
+}
+
+#titleSection p {
+    color: white;
+    font-family: "Roboto Thin", sans-serif;
+}
 
 
 

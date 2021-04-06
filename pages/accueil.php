@@ -77,7 +77,11 @@ ob_start();
 
         <section id="project">
             <div class="project__bg"></div>
-
+                <div id="titleSection">
+                    <h4>projets</h4>
+                    <p>Une petite selection de quelques projets réaliser cette année.
+                    Vous pouvez retrouvez la totalité des projets sur mon Github.</p>
+                </div>
             <div id="carousel">
                    <div class="hideLeft">
                     <img src="../images/carousel/ide.png" alt="page d'accueil projet html ide favoris">
@@ -115,8 +119,12 @@ ob_start();
                   </div>
                 </div>
         </section>
-
         <div id="modalProject" class="modal"></div>
+
+        <section id="contactMe">
+
+        </section>
+
 </main>
 
 <script type="text/javascript" src="../js/accueil.js"></script>
