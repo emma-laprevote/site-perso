@@ -72,83 +72,46 @@ ob_start();
             <div id="carousel">
                    <div class="hideLeft">
                     <img src="../images/carousel/ide.png" alt="page d'accueil projet html ide favoris">
-                    <a id="modalSelected" href="#ide"><p class="linkProject"><span>IDE FAVORIS / <strong>HTML5 / CSS3</strong></span></p></a>
+                    <a id="modalIde" href="#ide"><p class="linkProject"><span>IDE FAVORIS / <strong>HTML5 / CSS3</strong></span></p></a>
                   </div>
 
                   <div class="prevLeftSecond">
                     <img src="../images/carousel/appfav.png" alt="page d'accueil projet html application favorite">
-                    <a id="modalSelected" href="#appfav"><p class="linkProject"><span>APPLICATION FAVORITES / <strong>HTML5 / CSS3</strong></span></p></a>
+                    <a id="modalApp" href="#appfav"><p class="linkProject"><span>APPLICATION FAVORITES / <strong>HTML5 / CSS3</strong></span></p></a>
                   </div>
 
                   <div class="prev">
                     <img src="../images/carousel/slash.png" alt="page d'accueil projet php module-connexion">
-                    <a id="modalSelected" href="#slash"><p class="linkProject"><span>SLASH MAGAZINE / <strong>PHP</strong></span></p></a>
+                    <a id="modalSlash" href="#slash"><p class="linkProject"><span>SLASH MAGAZINE / <strong>PHP</strong></span></p></a>
                   </div>
 
                   <div class="selected">
                      <img src="../images/carousel/livreor.png" alt="page d'accueil projet php livre d'or">
-                     <a id="modalSelected" href="#livreOr"><p class="linkProject"><span>NOISE POLLUTION / <strong>PHP</strong></span></p></a>
+                     <a id="modalLivre" href="#modalProject"><p class="linkProject"><span>NOISE POLLUTION / <strong>PHP</strong></span></p></a>
                   </div>
 
                   <div class="next">
                     <img src="../images/carousel/discussion.png" alt="page d'accueil projet php discussion">
-                    <a id="modalSelected" href="#discussion"><p class="linkProject"><span>THE FACTORY / <strong>PHP</strong></span></p></a>
+                    <a id="modalDiscu" href="#discussion"><p class="linkProject"><span>THE FACTORY / <strong>PHP</strong></span></p></a>
                   </div>
 
                   <div class="nextRightSecond">
                     <img src="../images/carousel/blogout.png" alt="page d'accueil projet php blog">
-                    <a id="modalSelected" href="#blogout"><p class="linkProject"><span>BLOGOUT / <strong>PHP</strong></span></p></a>
+                    <a id="modalBlog" href="#blogout"><p class="linkProject"><span>BLOGOUT / <strong>PHP</strong></span></p></a>
                   </div>
 
                   <div class="hideRight">
                     <img src="../images/carousel/boutique.png" alt="page d'accueil projet php boutique en ligne">
-                    <a id="modalSelected" href="#jungle"><p class="linkProject"><span>JUNGLE GARDENER / <strong>PHP</strong></span></p></a>
+                    <a id="modalShop" href="#jungle"><p class="linkProject"><span>JUNGLE GARDENER / <strong>PHP</strong></span></p></a>
                   </div>
-
                 </div>
-
         </section>
 
-        <!-- Modal Structure selected -->
-             <div id="livreOr" class="modal">
-                <div class="modal__bg"></div>
-                    <div class="modal-footer">
-                         <a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="material-icons white-text">clear</i></a>
-                    </div>
-                 <div class="modal-content">
-                    <!--<div id="bandeau_vertical" class="bandeau_vertical" style=""></div>-->
-                    <div id="bg">
-                       <img id="tab1" src="../images/imagesite/livreor.png"/>
-                       <img id="tab2" src="../images/imagesite/livreor2.png"/>
-                       <img id="tab3" src="../images/imagesite/livreor3.png"/>
-                       <img id="tab4" src="../images/imagesite/livreor4.png"/>
-                    </div>
-
-                    <div class="contentColumn">
-                    <div id="titleProject">
-                        <h2>#LIVRE D'OR</h2>
-                        <p><b>NOISE POLLUTION</b> / PROJET <strong>PHP</strong> / 2019 / GITHUB</p>
-                    </div>
-                    <div class="descriptionProject">
-                        <h4 class="des">Description du projet</h4>
-                        <p>Le projet était de créer un livre d’or permettant aux utilisateurs de laisser
-                           leurs avis sur le site.<br>
-                           Dans un premier temps, je devais créer une base de donnée à l'aide <b>phpMyAdmin</b> et ensuite
-                           créer plusieurs pages avec l'ajout de fonctionnalitées selon si l'utilisateur était connecté ou pas, comme l'ajout de commentaire
-                           pour un utilisateur connecté.
-                        </p>
-                        <h4 class="compet">Compétences / acquis</h4>
-                        <p><b>STRUCTURATION ET FACTORISATION DU CODE</b><br>
-                        PARTITIONNEMENT DES FICHIERS<br>
-                        DECOUVERTE DU FRAMEWORK <strong>MATERIALIZE</strong><br>
-                        CREATION FICHIER TEMPLATE.</p>
-                    </div>
-                    </div>
-                 </div>
-             </div>
+        <div id="modalProject" class="modal"></div>
 </main>
 
 <script type="text/javascript" src="../js/accueil.js"></script>
+<script type="text/javascript" src="../js/modals.js"></script>
 <?php
 $pageContent = ob_get_clean();
 require_once('template.php');

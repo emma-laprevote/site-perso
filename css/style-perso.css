@@ -361,9 +361,9 @@ strong {
 
 /* CSS MODALS */
 
-#livreOr {
+#modalProject {
     width: 80%;
-    min-height: 85vh;
+    min-height: 83vh;
     margin-bottom: 3em;
 }
 
@@ -395,12 +395,31 @@ strong {
     flex-direction: column;
 }
 
+.contentColumn2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 #titleProject {
-    margin: -1em 0 0 3em;
+    margin: -2em 0 0 3em;
 }
 
 #titleProject h2 {
     font-family: 'Archivo Black', sans-serif;
+}
+
+#titleProject2 {
+    margin: -2.5em 0 0 3em;
+}
+
+#titleProject2 h2 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+#titleProject2 p {
+    font-family: kiona, sans-serif;
+    margin-top: -1.5em;
 }
 
 #titleProject p {
@@ -413,14 +432,15 @@ strong {
     color: black;
 }
 
-/*.bandeau_vertical {
-    position:relative;
-    width: 80%;
-    height: 30em;
-    border:1px solid white;
-    overflow:hidden;
-    margin-top: -1em;
-}*/
+.descriptionProject2 {
+    margin-top: 1.5em;
+    color: black;
+}
+
+.descriptionProject3 {
+    margin-top: 2.5em;
+    color: black;
+}
 
 .modal-footer i {
     font-size: 1.5em;
@@ -429,27 +449,53 @@ strong {
 .des {
     font-family: kiona, sans-serif;
     font-size: 1.5em;
-    padding: 2em 0 0 1em;
+    padding: 2em 0 0 1.4em;
     text-transform: uppercase;
 }
 
 .compet {
     font-family: kiona, sans-serif;
     font-size: 1.3em;
-    padding: 0.5em 0 0 1.3em;
+    padding: 1em 0 0 1.8em;
     text-transform: uppercase;
 }
 
 .descriptionProject p {
     font-family: "Roboto Thin", sans-serif;
     font-size: 13px;
-    padding: 0 2em 0 2em;
+    padding: 0 2em 0 3em;
+}
+
+.descriptionProject ul li {
+    padding: 0 2em 0 2.5em;
+}
+
+.descriptionProject2 p,
+.descriptionProject3 p{
+    font-family: "Roboto Thin", sans-serif;
+    font-size: 13px;
+    padding: 0 1em 0 3em;
+}
+
+.descriptionProject2 ul li,
+.descriptionProject3 ul li{
+    padding: 0 2em 0 2.5em;
+}
+
+.compet i {
+    font-size: 1.1em;
+}
+
+.compet i,
+.des i{
+    margin-right: 5px!important;
 }
 
 #bg {
     width: 90%;
     height: 30em;
     overflow:hidden;
+    margin-top: -2.5em;
 }
 
 #bg img {
