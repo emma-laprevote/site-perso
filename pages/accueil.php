@@ -27,6 +27,7 @@ ob_start();
         <p>Un <strong>développeur full stack</strong>, appelé aussi "développeur à tout faire", est un codeur capable de réaliser la programmation
         d’un site ou d'une application web à la fois en <strong>front-end</strong> et <strong>back-end</strong>. Il dispose ainsi de compétences variées lui
         permettant de travailler sur chaque étape d'un projet de création allant du développement à la production.</p>
+        <button class="waves-effect white black-text btn" type="submit" onclick="window.open('../pdf/laprevote emma.pdf')"><i class="material-icons black-text left">add</i>Télécharger mon cv</button>
       </div>
 </header>
 
@@ -36,34 +37,42 @@ ob_start();
         <div id="pictureEmma"></div>
 
         <div id="columnInfos">
-            <a id="linkAboutMe" href="#"><img id="titleAboutMe" src="../images/aboutme.PNG" alt="Titre de la section de présenation"></a>
+                <div id="rowTitle">
+                    <div id="tabCaseAbout"><a id="linkAboutMe" href="#aboutMe"><p id="typoAboutMe">about me</p></a></div>
+                    <div id="tabCaseHard"><a id="linkHardSkill" href="#hardSkill"><p id="typoHardSkills">hardskills</p></a></div>
+                </div>
+
+           <div id="rowBlock">
             <div id="aboutMe">
-                <div id="linearAboutMe">
-                <h5>EMMA <span id="lastName">Laprevote / 28 ANS / AIX-MARSEILLE</span></h5>
-                <p>Ce n'est pas toujours évident de se présenter en quelques lignes, surtout quand votre parcours est assez atypique.
-                Le mien commence dans <strong>la communication graphique</strong>, avec l'obtention d'un CAP et d'un BAC PRO en <strong>artisanat et metiers d'art en communication graphique</strong>.
-                Des années merveilleuses qui m'ont permises de développer ma curiosité et mon sens critique pour les <strong>arts visuels</strong> mais aussi de découvrir différents domaines
-                comme le <strong>webdesign</strong> et le <strong>développement web</strong>. <br><br>
-                Mon parcours prends au final des chemins opposés, afin d'explorer d'autres horizons, d'autres passions.
-                Mais c'est en 2019 que je décide de rejoindre le monde du <strong>numérique</strong> afin d'associer mes compétences en tant
-                 que <strong>graphiste</strong>, avec celles en tant que <strong>Développeuse full-stack</strong> au sein de l'école <strong>La PLateforme_</strong> basée à Marseille. </p>
-                 </div>
+                <h5>EMMA <span id="lastName">Laprevote / AIX-MARSEILLE</span> / <i class="fab fa-linkedin-in"></i><i class="fab fa-github-alt"></i><i class="fab fa-twitter"></i></h5>
+
+                <p>En pleine reconversion professionnelle dans le numérique au sein de la <strong>Coding
+                   School à La Plateforme_</strong>, afin de fusionner mes compétences
+                   en <strong>communication graphique</strong> avec celles acquises tout au long de ma formation, dans le <strong>développement web</strong>
+                </p>
+
+                   <div id="soft">
+                        <p id="softskills" class="text-flow"><span class="softNormal">attentive<span class="contrast">rigoureuse</span></span><span class="softS">passionnée</span> <span class="softS">motivée</span><span class="softNormal">dynamique</span><span class="softS">autodidacte</span>_</p>
+                   </div>
             </div>
 
-            <a id="linkHardSkill" href="#"><img id="titleHardSkills" src="../images/hardskill.PNG" alt="Titre de la section des compétences techniques"></a>
             <div id="hardSkill">
-                <div id="iconsRow">
-                <img id="html" class="iconesTech" src="../images/icones/html.png" alt="Icone HTML5">
-                <img id="css" class="iconesTech" src="../images/icones/css.png" alt="Icone CSS3">
-                <img class="iconesTech" src="../images/icones/php.png" alt="Icone PHP">
-                <img class="iconesTech" src="../images/icones/sql.png" alt="Icone MYSQL">
-                <img id="composer" class="iconesTech" src="../images/icones/composer.png" alt="Icone COMPOSER">
-                <img id="js" class="iconesTech" src="../images/icones/js.png" alt="Icone JAVASCRIPT">
-                <img class="iconesTech" src="../images/icones/jquery.png" alt="Icone JQUERY">
-                <img class="iconesTech" src="../images/icones/ubuntu.png" alt="Icone UBUNTU">
+                <div class="rowColumn">
+                    <img id="html" src="../images/icones/html.png" alt="Icone HTML5">
+                    <img id="css" src="../images/icones/css.png" alt="Icone CSS3">
+                    <img class="iconesTech" src="../images/icones/php.png" alt="Icone PHP">
+                    <img class="iconesTech" src="../images/icones/sql.png" alt="Icone MYSQL">
+                    <img id="git" src="../images/icones/git.png" alt="Icone GIT">
+                </div>
+                <div class="rowColumn">
+                    <img id="composer" src="../images/icones/composer.png" alt="Icone COMPOSER">
+                    <img id="js" src="../images/icones/js.png" alt="Icone JAVASCRIPT">
+                    <img id="jQuery" src="../images/icones/jquery.png" alt="Icone JQUERY">
+                    <img id="ubuntu" src="../images/icones/ubuntu.png" alt="Icone UBUNTU">
+                    <img id="adobe" src="../images/icones/adobe.png" alt="Icone ADOBE">
                 </div>
             </div>
-        </div>
+         </div>
         </article>
 
         <section id="project">

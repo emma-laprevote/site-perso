@@ -13,6 +13,7 @@
     src: url("../font/Kiona-Regular.ttf");
 }
 
+
 html {
     background-color: black;
 }
@@ -154,7 +155,7 @@ header {
 
 #presentEmma {
     position: relative;
-    margin: 15em 0 0 8.1em;
+    margin: 13em 0 0 8.1em;
     color: white;
     width: 45%;
 }
@@ -187,7 +188,7 @@ header {
     flex-direction: row;
     justify-content: normal;
     position: relative;
-    /*height: 50rem;*/
+    height: 22rem;
     overflow: hidden;
     background-color: white;
 }
@@ -198,6 +199,12 @@ header {
     position: relative;
     width: 60%;
     margin-left: 6em;
+    margin-top: -1%;
+}
+
+#rowBlock {
+    display: flex;
+    flex-direction: row;
 }
 
 #pictureEmma {
@@ -206,21 +213,87 @@ header {
     border-right: solid black 1px;
 }
 
-#aboutMe {
-    border-top: solid 1px black;
+#aboutMe{
+    width: 95%;
 }
 
 #titleAboutMe,
 #titleHardSkills{
-    max-width: 22%;
+    max-width: 80%;
     margin-left: -2em;
+    padding-bottom: 2em;
+}
+
+#aboutMe h5 {
+    /*padding-top: 1em;*/
+}
+
+#aboutMe h6 {
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 1.5em;
+}
+
+#softskills {
+    font-family: 'Archivo Black', sans-serif !important;
+    text-transform: uppercase;
+    line-height: 0.8em;
+    font-size: 2.5em;
+}
+
+.softS{
+  opacity: 90%!important;
+}
+
+.softNormal{
+    opacity: 70%;
+}
+
+.contrast {
+    opacity: 60%;
+}
+
+#soft{
+    width: 95%;
+    margin-top: -1em;
 }
 
 #aboutMe p {
     font-family: "Roboto Thin", sans-serif;
-    padding: 0 4em 0 0;
+    padding: 0 2em 0 0;
 }
 
+#aboutMe i {
+    font-size: 0.9em;
+    margin-right: 15px;
+    color: black;
+}
+
+#typoAboutMe {
+    font-family: Arial, sans-serif;
+    font-size: 1.66em;
+    color: black;
+    padding-right: 3px;
+    font-weight: 300;
+}
+
+#typoHardSkills {
+    font-family: "Arial Black", sans-serif, sans-serif;
+    font-size: 1.6em;
+    color: black;
+}
+
+#rowTitle {
+    display: flex;
+    flex-direction: row;
+}
+
+#tabCaseAbout {
+    height: 5em;
+}
+
+#tabCaseHard {
+    height: 5em;
+}
 
 strong {
     font-weight: bold;
@@ -228,24 +301,76 @@ strong {
 
 #hardSkill {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    border-top: solid 1px black;
+    flex-direction: column;
     padding-top: 2em;
 }
 
 .iconesTech {
-    width: 9%;
-    margin-right: 2em;
+    width: 12%;
+    height: 3em;
+    margin-top: 1.5em;
 }
 
+#git {
+    width: 12%;
+    height: 3em;
+    margin-top: 1.5em;
+}
+
+#adobe {
+    width: 8%;
+}
+
+.rowColumn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+}
+
+.rowColumn img{
+    margin-right: 6%;
+}
 
 #html,
 #css,
 #composer,
 #js{
-    width: 6%;
+    width: 8%;
+}
+
+#ubuntu {
+    width: 12%;
+}
+
+#jQuery {
+    width: 15%;
+    height: 3em;
+    margin-top: 1.5em;
+}
+
+/* CSS PROJECT */
+
+#project {
+    position: relative;
+    height: 30rem;
+    overflow: hidden;
+    background-color: white;
+}
+
+.project__bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-size: cover;
+    background-position: top;
+    transform: skewY(+6deg);
+    transform-origin: top left;
 }
 
 /* CSS PROJECT */
@@ -517,6 +642,9 @@ strong {
     font-family: kiona, sans-serif;
     opacity: initial;
 }
+
+
+
 
 
 
