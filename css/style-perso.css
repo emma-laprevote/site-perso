@@ -248,5 +248,283 @@ strong {
     width: 6%;
 }
 
+/* CSS PROJECT */
+
+#project {
+    position: relative;
+    height: 30rem;
+    overflow: hidden;
+    background-color: white;
+}
+
+.project__bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-size: cover;
+    background-position: top;
+    /*transform: skewY(+6deg);
+    transform-origin: top left;*/
+}
+
+/* CSS CAROUSEL */
+
+#carousel {
+    position: relative;
+    height: 400px;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+#carousel div {
+    position: absolute;
+    transition: transform 1s, left 1s, opacity 1s, z-index 0s;
+    opacity: 1;
+}
+
+#carousel img {
+    width: 600px;
+    transition: width 1s;
+}
+
+.hideLeft{
+    left: 0%;
+    opacity: 0;
+    transform: translateY(50%) translateX(-50%);
+}
+
+.hideLeft img {
+    width: 300px;
+}
+
+.hideRight {
+    left: 100%;
+    opacity: 0;
+    transform: translateY(50%) translateX(-50%);
+}
+
+.hideRight img {
+    width: 300px;
+}
+
+.prev {
+    z-index: 5;
+    left: 30%;
+    transform: translateY(50px) translateX(-50%);
+}
+.prev img {
+    width: 400px;
+}
+
+.prevLeftSecond {
+    z-index: 4;
+    left: 15%;
+    transform: translateY(50%) translateX(-50%);
+    opacity: .7;
+}
+
+.prevLeftSecond img {
+    width: 300px;
+}
+
+.selected {
+    z-index: 10;
+    left: 50%;
+    transform: translateY(0px) translateX(-50%);
+}
+
+.next {
+    z-index: 5;
+    left: 70%;
+    transform: translateY(50px) translateX(-50%);
+}
+
+.next img {
+    width: 400px;
+}
+
+.nextRightSecond {
+    z-index: 4;
+    left: 85%;
+    transform: translateY(50%) translateX(-50%);
+    opacity: .7;
+}
+
+.nextRightSecond img {
+    width: 300px;
+}
+
+/* CSS MODALS */
+
+#modalProject {
+    width: 80%;
+    min-height: 83vh;
+    margin-bottom: 3em;
+}
+
+.modal__bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 45%;
+    background-color: black;
+    background-size: cover;
+    background-position: top;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    color: white;
+}
+
+.contentColumn {
+  display: flex;
+    flex-direction: column;
+}
+
+.contentColumn2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#titleProject {
+    margin: -2em 0 0 3em;
+}
+
+#titleProject h2 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+#titleProject2 {
+    margin: -2.5em 0 0 3em;
+}
+
+#titleProject2 h2 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+#titleProject2 p {
+    font-family: kiona, sans-serif;
+    margin-top: -1.5em;
+}
+
+#titleProject p {
+    font-family: kiona, sans-serif;
+    margin-top: -1.5em;
+}
+
+.descriptionProject {
+    margin-top: 1.5em;
+    color: black;
+}
+
+.descriptionProject2 {
+    margin-top: 1.5em;
+    color: black;
+}
+
+.descriptionProject3 {
+    margin-top: 2.5em;
+    color: black;
+}
+
+.modal-footer i {
+    font-size: 1.5em;
+}
+
+.des {
+    font-family: kiona, sans-serif;
+    font-size: 1.5em;
+    padding: 2em 0 0 1.4em;
+    text-transform: uppercase;
+}
+
+.compet {
+    font-family: kiona, sans-serif;
+    font-size: 1.3em;
+    padding: 1em 0 0 1.8em;
+    text-transform: uppercase;
+}
+
+.descriptionProject p {
+    font-family: "Roboto Thin", sans-serif;
+    font-size: 13px;
+    padding: 0 2em 0 3em;
+}
+
+.descriptionProject ul li {
+    padding: 0 2em 0 2.5em;
+}
+
+.descriptionProject2 p,
+.descriptionProject3 p{
+    font-family: "Roboto Thin", sans-serif;
+    font-size: 13px;
+    padding: 0 1em 0 3em;
+}
+
+.descriptionProject2 ul li,
+.descriptionProject3 ul li{
+    padding: 0 2em 0 2.5em;
+}
+
+.compet i {
+    font-size: 1.1em;
+}
+
+.compet i,
+.des i{
+    margin-right: 5px!important;
+}
+
+#bg {
+    width: 90%;
+    height: 30em;
+    overflow:hidden;
+    margin-top: -2.5em;
+}
+
+#bg img {
+    width: 100%;
+}
+
+.linkProject {
+    margin-top: -3em;
+    height: 3em;
+    width: 100%;
+    background-color: black;
+    opacity: 80%;
+    color: white;
+    position: relative;
+    padding: 0.5em 0 0 1em;
+}
+
+.linkProject span {
+    font-family: kiona, sans-serif;
+    opacity: initial;
+}
+
+
+
+
+
+
+
+
+
 
 

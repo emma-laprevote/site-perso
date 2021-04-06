@@ -40,7 +40,7 @@ ob_start();
             <div id="aboutMe">
                 <div id="linearAboutMe">
                 <h5>EMMA <span id="lastName">Laprevote / 28 ANS / AIX-MARSEILLE</span></h5>
-                <p>Ce n'est pas toujours évident de se présenter en quelques lignes, surtout quand votre parcours est assez atypique.<br>
+                <p>Ce n'est pas toujours évident de se présenter en quelques lignes, surtout quand votre parcours est assez atypique.
                 Le mien commence dans <strong>la communication graphique</strong>, avec l'obtention d'un CAP et d'un BAC PRO en <strong>artisanat et metiers d'art en communication graphique</strong>.
                 Des années merveilleuses qui m'ont permises de développer ma curiosité et mon sens critique pour les <strong>arts visuels</strong> mais aussi de découvrir différents domaines
                 comme le <strong>webdesign</strong> et le <strong>développement web</strong>. <br><br>
@@ -65,10 +65,53 @@ ob_start();
             </div>
         </div>
         </article>
+
+        <section id="project">
+            <div class="project__bg"></div>
+
+            <div id="carousel">
+                   <div class="hideLeft">
+                    <img src="../images/carousel/ide.png" alt="page d'accueil projet html ide favoris">
+                    <a id="modalIde" href="#ide"><p class="linkProject"><span>IDE FAVORIS / <strong>HTML5 / CSS3</strong></span></p></a>
+                  </div>
+
+                  <div class="prevLeftSecond">
+                    <img src="../images/carousel/appfav.png" alt="page d'accueil projet html application favorite">
+                    <a id="modalApp" href="#appfav"><p class="linkProject"><span>APPLICATION FAVORITES / <strong>HTML5 / CSS3</strong></span></p></a>
+                  </div>
+
+                  <div class="prev">
+                    <img src="../images/carousel/slash.png" alt="page d'accueil projet php module-connexion">
+                    <a id="modalSlash" href="#slash"><p class="linkProject"><span>SLASH MAGAZINE / <strong>PHP</strong></span></p></a>
+                  </div>
+
+                  <div class="selected">
+                     <img src="../images/carousel/livreor.png" alt="page d'accueil projet php livre d'or">
+                     <a id="modalLivre" href="#modalProject"><p class="linkProject"><span>NOISE POLLUTION / <strong>PHP</strong></span></p></a>
+                  </div>
+
+                  <div class="next">
+                    <img src="../images/carousel/discussion.png" alt="page d'accueil projet php discussion">
+                    <a id="modalDiscu" href="#discussion"><p class="linkProject"><span>THE FACTORY / <strong>PHP</strong></span></p></a>
+                  </div>
+
+                  <div class="nextRightSecond">
+                    <img src="../images/carousel/blogout.png" alt="page d'accueil projet php blog">
+                    <a id="modalBlog" href="#blogout"><p class="linkProject"><span>BLOGOUT / <strong>PHP</strong></span></p></a>
+                  </div>
+
+                  <div class="hideRight">
+                    <img src="../images/carousel/boutique.png" alt="page d'accueil projet php boutique en ligne">
+                    <a id="modalShop" href="#jungle"><p class="linkProject"><span>JUNGLE GARDENER / <strong>PHP</strong></span></p></a>
+                  </div>
+                </div>
+        </section>
+
+        <div id="modalProject" class="modal"></div>
 </main>
 
-
 <script type="text/javascript" src="../js/accueil.js"></script>
+<script type="text/javascript" src="../js/modals.js"></script>
 <?php
 $pageContent = ob_get_clean();
 require_once('template.php');
