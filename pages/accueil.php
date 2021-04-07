@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'ACCUEIL';
+$pageTitle = 'EMMA LAPREVOTE';
 ob_start();
 ?>
 
@@ -79,7 +79,7 @@ ob_start();
             <div class="project__bg"></div>
                 <div id="titleSection">
                     <h4>projets</h4>
-                    <p>Une petite selection de quelques projets réaliser cette année.
+                    <p>Une petite selection de quelques projets réaliser depuis le début de l'année jusqu'à maintenant.
                     Vous pouvez retrouvez la totalité des projets sur mon Github.</p>
                 </div>
             <div id="carousel">
@@ -120,15 +120,66 @@ ob_start();
                 </div>
         </section>
         <div id="modalProject" class="modal"></div>
-
         <section id="contactMe">
-
+            <div id="msg_contact">
+                <div>
+                <h4>contact me.</h4>
+                <h6><i class="material-icons left">search</i>recherche<span>alternance</span>.</h6>
+                <p>Je suis actuellement en <strong>recherche d'alternance</strong> pour l'année 2021/2022 pour un poste
+                en tant que <strong>développeuse web full-stack</strong>.<br><br>
+                Mes compétences actuelles étant <strong>PHP, MYSQL et JAVASCRIPT</strong>,
+                je suis prête à me former sur d'autres technologies, avec <strong>enthousiasme et motivation</strong>, selon le besoin.<br>
+                <br>
+                N'hésitez pas à me contacter pour plus d'informations, discuter, boire un café ou tout autres demandes.</p>
+                </div>
+            </div>
+            <div id="formContact">
+              <form id="formContactEmka" method="post">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <label for="nom">Votre Nom:</label>
+                        <input type="text" name="nom" id="nom" placeholder="Votre nom de famille" required>
+                    </div>
+                    <div class="input-field col s6">
+                        <label for="prenom">Votre prénom:</label>
+                        <input type="text" name="prenom" id="prenom" placeholder="Votre prénom" required>
+                    </div>
+                    </div>
+                    <div class="row">
+                       <div id="mailDiv" class="input-field col s12">
+                            <label for="email">Votre e-mail:</label>
+                            <input type="email" name="email" id="email" placeholder="Votre adresse mail" required>
+                       </div>
+                    </div>
+                    <div class="row">
+                        <div id="objetDiv" class="input-field col s12">
+                            <label for="object">Objet:</label>
+                            <input type="text" name="object" id="object" placeholder="Objet du message" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="msgDiv" class="input-field col s12">
+                            <label for="objet">votre message:</label><br>
+                              <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="buttonDiv" class="input-field col s12">
+                            <button id="myButton" class="btn waves-effect transparent black-text" type="submit" name="mailform">ENVOYER
+                                <i class="material-icons right">send</i>
+                              </button>
+                        </div>
+                    </div>
+                    <span class="error" id="errorForm"></span>
+                </form>
+            </div>
         </section>
 
 </main>
 
 <script type="text/javascript" src="../js/accueil.js"></script>
 <script type="text/javascript" src="../js/modals.js"></script>
+<script type="text/javascript" src="../js/contact.js"></script>
 <?php
 $pageContent = ob_get_clean();
 require_once('template.php');

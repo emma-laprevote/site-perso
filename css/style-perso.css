@@ -350,7 +350,7 @@ strong {
 
 #project {
     position: relative;
-    height: 30rem;
+    height: 50rem;
     overflow: hidden;
     background-color: white;
 }
@@ -374,7 +374,7 @@ strong {
 
 #project {
     position: relative;
-    height: 30rem;
+    height: 42rem;
     overflow: hidden;
     background-color: white;
 }
@@ -402,7 +402,7 @@ strong {
     top: 50%;
     transform: translateY(-50%);
     overflow: hidden;
-    margin-top: -2em;
+    margin-top: -8em;
 }
 
 #carousel div {
@@ -662,6 +662,107 @@ strong {
     font-family: "Roboto Thin", sans-serif;
 }
 
+/* CSS SECTION CONTACT */
+
+#contactMe {
+    width: 100%;
+    background-color: white;
+    height: 35rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#formContact {
+    width: 50%;
+}
+
+#msg_contact {
+    width: 50%;
+
+}
+
+#msg_contact div {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 6em;
+}
+
+#formContactEmka {
+    width: 80%;
+    margin-top: 5em;
+}
+
+#formContactEmka label {
+    font-family: kiona, sans-serif;
+    color: black;
+    margin-bottom: 2px;
+}
+
+#formContactEmka input {
+    font-family: "Roboto Thin", sans-serif;
+    color: black;
+}
+
+#msg_contact h4 {
+    font-family: "Arial Black", sans-serif, sans-serif;
+    font-size: 1.6em;
+    padding-bottom: 0.5em;
+    color: black;
+    border-bottom: solid 1px black;
+}
+
+#msg_contact h6 {
+    font-family: kiona, sans-serif;
+    color: black;
+    margin-top: 2em;
+}
+
+#msg_contact p {
+    font-family: "Roboto Thin", sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+#msg_contact span {
+    font-family: Beckman, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+#msg_contact i {
+    margin-right: 5px!important;
+}
+
+#mailDiv,
+#objetDiv,
+#msgDiv,
+#buttonDiv {
+    margin-top: -1em;
+}
+
+#myButton {
+    border: solid 1px black;
+    font-family: Beckman, sans-serif;
+}
+
+.error{
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+#success {
+    margin: 0 auto;
+}
+
+#success p {
+    font-family: Beckman, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 11em;
+    border-top: solid 1px black;
+}
 
 
 
