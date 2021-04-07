@@ -3,22 +3,24 @@ $pageTitle = 'EMMA LAPREVOTE';
 ob_start();
 ?>
 
+<!-- HEADER OBLIQUE + NAVBAR + IDENTITE + DEFINITION DU METIER DE DEVELOPPEUR WEB FULL STACK -->
 <header>
     <div class="header__bg"></div>
       <nav id="navEmma">
         <div class="nav-wrapper">
-           <a href="#!" class="brand-logo"><img id="typoLogoMenu" src="../images/typoemka.png" alt="logo Emma Laprevote"</a>
+           <img id="typoLogoMenu" src="../images/typoemka.png" alt="logo Emma Laprevote">
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul id="navBar" class="right hide-on-med-and-down">
-            <li><a href="#"><span class="link">ABOUT ME</span></a></li>
-            <li><a href="#"><span class="link">PROJETS</span></a></li>
-            <li><a href="#"><span class="link">CONTACT</span></a></li>
+            <li><a href="#presentation"><span class="link">ABOUT ME</span></a></li>
+            <li><a href="#project"><span class="link">PROJETS</span></a></li>
+            <li><a href="#contactMe"><span class="link">CONTACT</span></a></li>
+          </ul>
         </div>
       </nav>
       <ul class="sidenav" id="mobile-demo">
-         <li><a href="#">ABOUT ME</a></li>
-         <li><a href="#">PROJETS</a></li>
-         <li><a href="#">CONTACT</a></li>
+         <li><a href="#presentation">ABOUT ME</a></li>
+         <li><a href="#project">PROJETS</a></li>
+         <li><a href="#contactMe">CONTACT</a></li>
       </ul>
 
       <div id="presentEmma">
@@ -44,7 +46,7 @@ ob_start();
 
            <div id="rowBlock">
             <div id="aboutMe">
-                <h5>EMMA <span id="lastName">Laprevote / AIX-MARSEILLE</span> / <i class="fab fa-linkedin-in"></i><i class="fab fa-github-alt"></i><i class="fab fa-twitter"></i></h5>
+                <h5>EMMA <span id="lastName">Laprevote / AIX-MARSEILLE</span> / <a href="https://www.linkedin.com/in/emkalaprevote/" target="_blank"><i class="fab fa-linkedin-in"></i></a><a href="https://github.com/emma-laprevote" target="_blank"><i class="fab fa-github-alt"></i></a><a href="https://twitter.com/ELaprevote" target="_blank"><i class="fab fa-twitter"></i></a></h5>
 
                 <p>En pleine reconversion professionnelle dans le numérique au sein de la <strong>Coding
                    School à La Plateforme_</strong>, afin de fusionner mes compétences
@@ -182,11 +184,17 @@ ob_start();
                         <img src="../images/logoemka.png" alt="logo Emma Laprevote" id="logoF">
 
                         <div id="contactEmma">
-                            <p id="nameEmma">EMMA <span id="lastName">LAPREVOTE</span></p>
+                            <p id="nameEmma">EMMA<br><span id="lastName">LAPREVOTE</span></p>
                             <p>Développeuse web <strong>full-stack.</strong></p>
                             <p>laprevote.emma@gmail.com</p>
-                            <i class="fab fa-linkedin-in"></i><i class="fab fa-github-alt"></i><i class="fab fa-twitter"></i>
+                            <div id="linkSocial">
+                                <a href="https://www.linkedin.com/in/emkalaprevote/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://github.com/emma-laprevote" target="_blank"><i class="fab fa-github-alt"></i></a>
+                                <a href="https://twitter.com/ELaprevote" target="_blank"><i class="fab fa-twitter"></i></a>
+                            </div>
                         </div>
+
+                        <a id="backTop" href="#navEmma"><i class="material-icons">expand_less</i></a>
                     </div>
                 </section>
         </footer>
