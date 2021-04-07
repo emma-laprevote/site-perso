@@ -121,11 +121,12 @@ header {
 
  #navEmma{
     height: 8em;!important
+     position: relative!important;
 }
 
 #typoLogoMenu {
-    width: 20%;
-    padding: 2em 0 0 4em;
+    width: 15%;
+    padding: 4em 0 0 4em;
 }
 
 #navBar{
@@ -146,8 +147,7 @@ header {
 }
 
 #navBar a:hover {
-    border-top: none;
-    border-bottom: solid 2px white;
+    font-size: 1.4em;
 }
 
 #nameIdentity {
@@ -751,6 +751,12 @@ strong {
     background-color: #FFBABA;
 }
 
+::placeholder {
+    font-family: "Roboto Thin", sans-serif;
+    font-size: 14px;
+}
+
+
 #success {
     margin: 0 auto;
 }
@@ -763,6 +769,106 @@ strong {
     margin-top: 11em;
     border-top: solid 1px black;
 }
+
+/* CSS FOOTER */
+
+#footerEmka {
+    position: relative;
+    height: 20rem;
+    overflow: hidden;
+    background-color: white;
+}
+
+.footer__bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-size: cover;
+    background-position: top;
+    transform: skewY(+3deg);
+    transform-origin: top left;
+}
+
+#sectionFooter {
+    position: relative;
+    width: 90%;
+    color: white;
+    margin: 0 auto;
+}
+
+#backTop {
+    position: relative;
+    color: white;
+    margin-left: 12em;
+}
+
+#footerEmka i {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+
+#logoFooter {
+    width: 80%;
+    margin-top: 3.5em;
+    display: flex;
+    flex-direction: row;
+}
+
+#nameEmma {
+    font-family: Beckman, sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 0.5em;
+}
+
+#logoF {
+    width: 13%;
+    height: auto;
+}
+
+#logoFooter p {
+    font-family: "Roboto Thin", sans-serif;
+    line-height: 1em;
+}
+
+#contactEmma {
+    margin-left: 3em;
+}
+
+#linkSocial i {
+    font-size: 1.2em;
+    margin-right: 1em;
+}
+
+#anchors {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+#anchors a {
+    color: white;
+    width: 30%;
+    font-family: Arial, sans-serif;
+    border-bottom: solid 1px white;
+    margin-bottom: 0.5em;
+}
+
+#anchors a:hover {
+    border-bottom: none;
+}
+
+#linkSocial {
+    display: flex;
+    flex-direction: row;
+}
+
+
 
 
 
