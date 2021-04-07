@@ -1,10 +1,12 @@
 <?php
 $pageTitle = 'EMMA LAPREVOTE';
 ob_start();
+$path = "../";
 ?>
 
+
 <!-- HEADER OBLIQUE + NAVBAR + IDENTITE + DEFINITION DU METIER DE DEVELOPPEUR WEB FULL STACK -->
-<header>
+<header data-barba="container" data-barba-namespace="accueil">
     <div class="header__bg"></div>
       <nav id="navEmma">
         <div class="nav-wrapper">
@@ -33,7 +35,7 @@ ob_start();
       </div>
 </header>
 
-<main id="main_site">
+<main id="main_site" data-barba="container" data-barba-namespace="accueil">
     <article id="presentation">
     <div id="sectionAboutMe"></div>
         <div id="pictureEmma"></div>
@@ -204,6 +206,9 @@ ob_start();
 <script type="text/javascript" src="../js/accueil.js"></script>
 <script type="text/javascript" src="../js/modals.js"></script>
 <script type="text/javascript" src="../js/contact.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+<script src="https://unpkg.com/@barba/core"></script>
+
 <?php
 $pageContent = ob_get_clean();
 require_once('template.php');
