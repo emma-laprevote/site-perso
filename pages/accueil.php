@@ -175,6 +175,22 @@ ob_start();
             </div>
         </section>
 
+        <footer id="footerEmka">
+            <div class="footer__bg"></div>
+                <section id="sectionFooter">
+                    <div id="logoFooter">
+                        <img src="../images/logoemka.png" alt="logo Emma Laprevote" id="logoF">
+
+                        <div id="contactEmma">
+                            <p id="nameEmma">EMMA <span id="lastName">LAPREVOTE</span></p>
+                            <p>Développeuse web <strong>full-stack.</strong></p>
+                            <p>laprevote.emma@gmail.com</p>
+                            <i class="fab fa-linkedin-in"></i><i class="fab fa-github-alt"></i><i class="fab fa-twitter"></i>
+                        </div>
+                    </div>
+                </section>
+        </footer>
+
 </main>
 
 <script type="text/javascript" src="../js/accueil.js"></script>
