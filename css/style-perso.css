@@ -22,9 +22,8 @@ html {
 
 #welcomeHome {
     width: 90%;
-    /*margin: 0 auto;*/
-    margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
-    transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+    margin: 0 auto;
+    padding-top: 30vh;
     display: flex;
     flex-direction: row;
 }
@@ -63,11 +62,11 @@ html {
     height: 15em;
     margin-left: 3%;
     overflow: hidden;
-    position: relative;
+    /*position: relative;*/
 }
 
 #columnImg {
-    position: absolute;
+    /*position: absolute;*/
     height: 20em;
 }
 
@@ -113,9 +112,18 @@ header {
 
 
 #main_site {
-    background-color: white;
-    min-height: 100vh;
+    background-color: black;
 }
+
+.wipe-transition {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 90%;
+    position: absolute;
+    left: -100%;
+}
+
 
 /* CSS HEADER */
 
