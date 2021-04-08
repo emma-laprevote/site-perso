@@ -12,18 +12,18 @@
             </div>
         <div class="contentColumn">
             <div id="titleProject2">
-                <h2>#DISCUSSION</h2>
-                    <p><b>THE FACTORY</b> / PROJET <strong>PHP</strong> / 2020 / GITHUB</p>
+                <h1>#DISCUSSION</h1>
+                    <p><b>THE FACTORY</b> / PROJET <strong>PHP</strong> / 2020 / <a style="color: white;" href="https://github.com/emma-laprevote/discussion"><i style="color: white; font-size: 1.2em;" class="fab fa-github-alt"></i> GITHUB</a></p>
             </div>
             <div class="descriptionProject3">
-                <h4 class="des"><i class="material-icons left">expand_more</i>Description du projet</h4>
+                <h2 class="des"><i class="material-icons left">expand_more</i>Description du projet</h2>
                     <p>Le projet était de créer un fil de discussion permettant à vos visiteurs de
                        communiquer.<br>
                        Dans un premier temps, je devais créer une base de donnée à l'aide <b>phpMyAdmin</b> et ensuite
                        créer plusieurs pages avec l'ajout de fonctionnalitées selon si l'utilisateur était connecté ou pas, comme l'ajout de message
                        ou l'accès à la page profif pour un utilisateur connecté.
                     </p>
-                <h4 class="compet"><i class="material-icons left">grade</i>Compétences / acquis</h4>
+                <h2 class="compet"><i class="material-icons left">grade</i>Compétences / acquis</h2>
                 <ul>
                     <li><b>STRUCTURATION ET FACTORISATION DU CODE</b></li>
                     <li>PARTITIONNEMENT DES FICHIERS</li>

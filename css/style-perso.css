@@ -157,11 +157,25 @@ header {
  #navEmma{
     height: 8em;!important
      position: relative!important;
+     background-color: transparent!important;
 }
 
 #typoLogoMenu {
     width: 15%;
     padding: 4em 0 0 4em;
+    position: relative;
+}
+
+.sidenav {
+    background-color: black!important;
+    opacity: 90%!important;
+    color: white!important;
+}
+
+.sidenav li a {
+    color: white!important;
+    font-family: kiona, sans-serif!important;
+    padding-top: 4em!important;
 }
 
 #navBar{
@@ -558,14 +572,14 @@ strong {
 .contentColumn2 {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
 }
 
 #titleProject {
-    margin: -2em 0 0 3em;
+    margin: -2.5em 0 0 3em;
 }
 
-#titleProject h2 {
+#titleProject h1 {
     font-family: 'Archivo Black', sans-serif;
 }
 
@@ -573,7 +587,11 @@ strong {
     margin: -2.5em 0 0 3em;
 }
 
-#titleProject2 h2 {
+#linkGit {
+    padding: 0!important;
+}
+
+#titleProject2 h1 {
     font-family: 'Archivo Black', sans-serif;
 }
 
@@ -609,7 +627,7 @@ strong {
 .des {
     font-family: kiona, sans-serif;
     font-size: 1.5em;
-    padding: 2em 0 0 1.4em;
+    padding: 1.1em 0 0 1.4em;
     text-transform: uppercase;
 }
 
@@ -624,6 +642,14 @@ strong {
     font-family: "Roboto Thin", sans-serif;
     font-size: 13px;
     padding: 0 2em 0 3em;
+}
+
+.descriptionProject ul{
+    margin-top: -0.5em;
+}
+
+.descriptionProject2 ul{
+    margin-top: -0.5em;
 }
 
 .descriptionProject ul li {
@@ -659,6 +685,17 @@ strong {
 }
 
 #bg img {
+    width: 100%;
+}
+
+#bg2 {
+    width: 70%;
+    height: 30em;
+    overflow:hidden;
+    margin-top: -2.5em;
+}
+
+#bg2 img {
     width: 100%;
 }
 

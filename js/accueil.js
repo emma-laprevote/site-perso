@@ -1,6 +1,4 @@
-$(document).ready(function(){
-    $('.sidenav').sidenav();
-});
+
 
 // SECTION ABOUT ME/HARDSKILLS
 
@@ -119,6 +117,16 @@ $(function() {
         }
     });
 });
+
+// SCRIPT RESPONSIVE JQUERIES
+
+if (window.matchMedia("(min-width:280px)").matches && window.matchMedia("(max-width:900px)").matches) {
+
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+    });
+
+}
 
 
 
