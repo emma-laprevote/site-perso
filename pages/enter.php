@@ -20,8 +20,12 @@ $path = "../";
             <img src="../images/typoemka.png"  id="typoLogoEmka" alt="typographie logo Emma Laprevote">
         </div>
         <div class="contentImg" id="upImg">
-            <img src="../images/typoDev.png"  id="typoDevEmma" alt="typographie développeuse web">
-            <a id="enterSite" href="./accueil.php"><img id="imgEnter" src="../images/entrer.png"></a>
+            <div class="divDev">
+                <img src="../images/typoDev.png"  id="typoDevEmma" alt="typographie développeuse web">
+            </div>
+            <div class="divEnter">
+                <a id="enterSite" href="./accueil.php"><img id="imgEnter" src="../images/bulleEnterResponsive.png"></a>
+            </div>
         </div>
     </div>
     </div>

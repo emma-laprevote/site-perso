@@ -5,9 +5,6 @@ function changeImg() {
     setTimeout("changeImg()", 8000)
 }
 
-/*window.onload = function(){
-    changeImg();
-}*/
 
 // SCRIPT PAGE TRANSITION BARBA / GSAP
 const wipe = document.querySelector('.wipe-transition');
@@ -54,8 +51,7 @@ barba.init({
 
 // SCRIPT JQUERIES RESPONSIVE
 
-
-    if(window.matchMedia("(min-width:280px)").matches && window.matchMedia("(max-width:1024px)").matches){
+    if (window.matchMedia("(min-width:280px)").matches && window.matchMedia("(max-width:900px)").matches) {
 
         $('#welcomeHome').css("flexDirection", "column");
         $('#containerImg').css("height", "30em");
@@ -76,18 +72,50 @@ barba.init({
         });
 
         $('#upImg').empty();
-        $('#upImg').append(buttonEnter ());
+        $('#upImg').append(buttonEnter());
 
-        $('#upImg').removeClass().addClass("upImageResponse");
-        $('#imgEnter').remove().addClass("imgEnterResponse");
+        $('#imgEnterRes').css({
+            width: "34%",
+            marginLeft: "22%",
+            paddingTop: "2em"
+        })
 
+        $('.divEnter').css({
+            width: "70%",
+            margin: "0 auto",
+            height: "5em"
+        })
 
+    } else if (window.matchMedia("(min-width:1000px)").matches && window.matchMedia("(max-width:1500px)").matches) {
+        window.onload = function () {
+            changeImg();
+        }
 
+        $('#typoDevEmma').css({
+            width: "80%"
+        })
+        $('#imgEnter').css('width', '10%')
+        $('#portraitEmka').css('marginLeft', '20%')
+        $('#portraitEmka').css("width", "60%")
+        $('#portraitEmka').css({
+            paddingTop: "0.5em"
+        })
+
+    } else if (window.matchMedia("(min-width:1500px)").matches) {
+        window.onload = function () {
+            changeImg();
+        }
+
+        $('#typoDevEmma').css({
+            width: "70%"
+        })
+        $('.divEnter').css("width", "61%")
+        $('#typoLogoEmka').css("width", "25%")
     }
 
     function buttonEnter () {
         let html = "";
-        html += "<a id=\"enterSite\" href=\"./accueil.php\"><img id=\"imgEnter\" src=\"../images/bulleEnterResponsive.png\"></a>";
+        html += "<div class='divEnter'><a id=\"enterSite\" href=\"./accueil.php\"><img id=\"imgEnterRes\" src=\"../images/bulleEnterResponsive.png\"></a></div>";
 
         return html;
     }
