@@ -86,7 +86,7 @@ barba.init({
             height: "5em"
         })
 
-    } else if (window.matchMedia("(min-width:1000px)").matches && window.matchMedia("(max-width:1500px)").matches) {
+    } else if (window.matchMedia("(min-width:900px)").matches && window.matchMedia("(max-width:1500px)").matches) {
         window.onload = function () {
             changeImg();
         }

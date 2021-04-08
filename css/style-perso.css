@@ -168,7 +168,7 @@ header {
 
 .sidenav {
     background-color: black!important;
-    opacity: 90%!important;
+    opacity: 80%!important;
     color: white!important;
 }
 
@@ -272,11 +272,6 @@ header {
     max-width: 80%;
     margin-left: -2em;
     padding-bottom: 2em;
-}
-
-#aboutMe h6 {
-    font-family: 'Zilla Slab Highlight', cursive;
-    font-size: 1.5em;
 }
 
 #softskills {

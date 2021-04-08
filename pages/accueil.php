@@ -26,8 +26,8 @@ $path = "../";
       </ul>
 
       <div id="presentEmma">
-        <h2 id="nameIdentity">EMMA <span id="lastName">LAPREVOTE</span></h2>
-        <h6 id="definitionDev"><span>Développeur(se) full-stack</span> / dev.lɔ.pœʁ / masculin / feminin</h6>
+        <h1 id="nameIdentity">EMMA <span id="lastName">LAPREVOTE</span></h1>
+        <h2 id="definitionDev"><span>Développeur(se) full-stack</span> / dev.lɔ.pœʁ / masculin / feminin</h2>
         <p>Un <strong>développeur full stack</strong>, appelé aussi "développeur à tout faire", est un codeur capable de réaliser la programmation
         d’un site ou d'une application web à la fois en <strong>front-end</strong> et <strong>back-end</strong>. Il dispose ainsi de compétences variées lui
         permettant de travailler sur chaque étape d'un projet de création allant du développement à la production.</p>
@@ -38,6 +38,7 @@ $path = "../";
 <main id="main_site" data-barba="container" data-barba-namespace="accueil">
     <article id="presentation">
     <div id="sectionAboutMe"></div>
+
         <div id="pictureEmma"></div>
 
         <div id="columnInfos">
@@ -55,9 +56,8 @@ $path = "../";
                    en <strong>communication graphique</strong> avec celles acquises tout au long de ma formation, dans le <strong>développement web</strong>
                 </p>
 
-                   <div id="soft">
-                        <p id="softskills" class="text-flow"><span class="softNormal">attentive<span class="contrast">rigoureuse</span></span><span class="softS">passionnée</span> <span class="softS">motivée</span><span class="softNormal">dynamique</span><span class="softS">autodidacte</span>_</p>
-                   </div>
+                <p id="softskills"><span class="softNormal">attentive</span><span class="contrast">rigoureuse</span><span class="softS">passionnée</span> <span class="softS">motivée</span><span class="softNormal">dynamique</span><span class="softS">autodidacte</span>_</p>
+
             </div>
 
             <div id="hardSkill">
