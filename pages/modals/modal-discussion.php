@@ -4,11 +4,11 @@
         </div>
         <div class="modal-content">
             <div id="bg">
-                <img id="tab1" src="../images/imagesite/discussion.png"/>
-                <img id="tab2" src="../images/imagesite/discussion2.png"/>
-                <img id="tab3" src="../images/imagesite/discussion3.png"/>
-                <img id="tab3" src="../images/imagesite/discussion4.png"/>
-                <img id="tab3" src="../images/imagesite/discussion5.png"/>
+                <img id="tab1" src="../images/imagesite/discussion.png" alt="Projet the factory Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab2" src="../images/imagesite/discussion2.png" alt="Projet the factory Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab3" src="../images/imagesite/discussion3.png" alt="Projet the factory Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab3" src="../images/imagesite/discussion4.png" alt="Projet the factory Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab3" src="../images/imagesite/discussion5.png" alt="Projet the factory Emma Laprevote, développeuse web, Marseille"/>
             </div>
         <div class="contentColumn">
             <div id="titleProject2">
@@ -35,3 +35,4 @@
     </div>
 
     <script type="text/javascript" src="../js/accueil.js"></script>
+    <script type="text/javascript" src="../js/responsive-accueil.js"></script>

@@ -4,10 +4,10 @@
         </div>
         <div class="modal-content">
             <div id="bg">
-                <img id="tab1" src="../images/imagesite/slash.png"/>
-                <img id="tab2" src="../images/imagesite/slash2.png"/>
-                <img id="tab3" src="../images/imagesite/slash3.png"/>
-                <img id="tab3" src="../images/imagesite/slash4.png"/>
+                <img id="tab1" src="../images/imagesite/slash.png" alt="Projet slash magazine Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab2" src="../images/imagesite/slash2.png" alt="Projet slash magazine Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab3" src="../images/imagesite/slash3.png" alt="Projet slash magazine Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab3" src="../images/imagesite/slash4.png" alt="Projet slash magazine Emma Laprevote, développeuse web, Marseille"/>
             </div>
         <div class="contentColumn">
             <div id="titleProject2">
@@ -32,3 +32,4 @@
     </div>
 
     <script type="text/javascript" src="../js/accueil.js"></script>
+    <script type="text/javascript" src="../js/responsive-accueil.js"></script>

@@ -4,10 +4,10 @@
         </div>
         <div class="modal-content">
             <div id="bg">
-                <img id="tab1" src="../images/imagesite/ide.png"/>
-                <img id="tab2" src="../images/imagesite/ide2.png"/>
-                <img id="tab3" src="../images/imagesite/ide3.png"/>
-                <img id="tab3" src="../images/imagesite/ide4.png"/>
+                <img id="tab1" src="../images/imagesite/ide.png" alt="Projet ide Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab2" src="../images/imagesite/ide2.png" alt="Projet ide Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab3" src="../images/imagesite/ide3.png" alt="Projet ide Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab3" src="../images/imagesite/ide4.png" alt="Projet ide Emma Laprevote, développeuse ide/>
             </div>
         <div class="contentColumn">
             <div id="titleProject2">
@@ -33,3 +33,4 @@
     </div>
 
     <script type="text/javascript" src="../js/accueil.js"></script>
+    <script type="text/javascript" src="../js/responsive-accueil.js"></script>

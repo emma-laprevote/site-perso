@@ -12,19 +12,19 @@ $path = "";
 
 <section id="welcomeHome">
     <div id="logoEmka">
-        <img id="portraitEmka" src="images/logoemka.png" alt="logo Emma Laprevote">
+        <img id="portraitEmka" src="images/logoemka.png" alt="identité visuelle portrait minimaliste de Emma Laprevote, dévellopeuse web, Marseille">
     </div>
     <div id="containerImg">
     <div id="columnImg">
         <div class="contentImg" id="changeImg">
-            <img src="images/typoemka.png"  id="typoLogoEmka" alt="typographie logo Emma Laprevote">
+            <img src="images/typoemka.png"  id="typoLogoEmka" alt="identité visuelle typographique de Emma Laprevote, dévellopeuse Marseille">
         </div>
         <div class="contentImg" id="upImg">
             <div class="divDev">
-                <img src="images/typoDev.png"  id="typoDevEmma" alt="typographie développeuse web">
+                <img src="images/typoDev.png"  id="typoDevEmma" alt="typographie développeuse web pour Emma Laprevote, développeuse web, Marseille">
             </div>
             <div class="divEnter">
-                <a id="enterSite" href="pages/accueil.php"><img id="imgEnter" src="images/bulleEnterResponsive.png"></a>
+                <a id="enterSite" href="pages/accueil.php"><img id="imgEnter" src="images/bulleEnterResponsive.png" alt="button entrer pixilisé pour entrer sur la page de Emma Laprevote, développeuse web, Marseille"></a>
             </div>
         </div>
     </div>
