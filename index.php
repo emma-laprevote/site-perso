@@ -1,8 +1,21 @@
-<?php
-$pageTitle = 'EMMA LAPREVOTE';
-ob_start();
-$path = "";
-?>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+    <link rel="stylesheet" type="text/css" href="css/style-perso.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <meta name="description" content="Emma Laprevote, développeuse web Full-stack junior, basée sur la métropole AIX-MARSEILLE, en apprentissage à l'école La Plateforme_ à Marseille.">
+    <title>Emma Laprevote - Entrer</title>
+</head>
+<body data-barba="wrapper">
 
 <div class="wipe-transition"></div>
 
@@ -36,6 +49,6 @@ $path = "";
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
 <script src="https://unpkg.com/@barba/core"></script>
 <script type="text/javascript" src="js/script.js"></script>
-<?php
-$pageContent = ob_get_clean();
-require_once('pages/template.php');
+<script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
