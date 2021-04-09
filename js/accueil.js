@@ -1,7 +1,4 @@
 
-
-// SECTION ABOUT ME/HARDSKILLS
-
 //Page accueil inital:
 $('#hardSkill').hide();
 $('#typoAboutMe').css({
@@ -101,9 +98,10 @@ $('#carousel div').click(function() {
     moveToSelected($(this));
 });
 
-/*$(function() {
+//SCROLL SMOOTH POUR CERTAINES ANCRES
+$(function() {
 
-    $("a[href*='#']:not([href='#'])").click(function(e) {
+    $("a[href*='#presentation']:not([href='#'])").click(function(e) {
         e.preventDefault();
         if (
             location.hostname == this.hostname
@@ -116,10 +114,60 @@ $('#carousel div').click(function() {
             }
         }
     });
-});*/
+});
+
+$(function() {
+
+    $("a[href*='#project']:not([href='#'])").click(function(e) {
+        e.preventDefault();
+        if (
+            location.hostname == this.hostname
+            && this.pathname.replace(/^\//,"") == location.pathname.replace(/^\//,"")
+        ) {
+            var anchor = $(this.hash);
+            anchor = anchor.length ? anchor : $("[name=" + this.hash.slice(1) +"]");
+            if ( anchor.length ) {
+                $("html, body").animate( { scrollTop: anchor.offset().top }, 1500);
+            }
+        }
+    });
+});
+
+$(function() {
+
+    $("a[href*='#contactMe']:not([href='#'])").click(function(e) {
+        e.preventDefault();
+        if (
+            location.hostname == this.hostname
+            && this.pathname.replace(/^\//,"") == location.pathname.replace(/^\//,"")
+        ) {
+            var anchor = $(this.hash);
+            anchor = anchor.length ? anchor : $("[name=" + this.hash.slice(1) +"]");
+            if ( anchor.length ) {
+                $("html, body").animate( { scrollTop: anchor.offset().top }, 1500);
+            }
+        }
+    });
+});
+
+$(function() {
+
+    $("a[href*='#navEmma']:not([href='#'])").click(function(e) {
+        e.preventDefault();
+        if (
+            location.hostname == this.hostname
+            && this.pathname.replace(/^\//,"") == location.pathname.replace(/^\//,"")
+        ) {
+            var anchor = $(this.hash);
+            anchor = anchor.length ? anchor : $("[name=" + this.hash.slice(1) +"]");
+            if ( anchor.length ) {
+                $("html, body").animate( { scrollTop: anchor.offset().top }, 1500);
+            }
+        }
+    });
+});
 
 // SCRIPT RESPONSIVE JQUERIES
-
 if (window.matchMedia("(min-width:280px)").matches && window.matchMedia("(max-width:900px)").matches) {
 
     $(document).ready(function(){
@@ -149,10 +197,10 @@ if (window.matchMedia("(min-width:280px)").matches && window.matchMedia("(max-wi
     })
 
     $('#aboutMe').css("width", "100%")
-    $('#pictureEmma').remove()
+    $('#statutEmma').remove()
     $('#presentation').css("height", "40%")
 
-    $('#columnInfos').css("marginLeft", "2.5em")
+    $('#columnInfos').css("marginLeft", "1.5em")
     $('#aboutMe p').css("width", "95%")
     $('#aboutMe p').css("padding", "0")
     $('#aboutMe h5').css({
@@ -255,7 +303,38 @@ if (window.matchMedia("(min-width:280px)").matches && window.matchMedia("(max-wi
 
     }
 
+} else if (window.matchMedia("(min-width:900px)").matches && window.matchMedia("(max-width:1000px)").matches) {
+    $('#columnInfos').css("marginTop", "-3%")
+    $('#titleSection').css("width", "40%")
+    $('#titleSection').css("margin", "3em 0 2em 3em")
+
+    $('#modalProject').css("width", "95%")
+    $('.descriptionProject').css("marginTop", "2em")
+
+} else if (window.matchMedia("(min-width:1600px)").matches) {
+    $('#modalProject').css("width", "90%")
+    $('.modal__bg').css("height", "47%")
+    $('#bg').css("width", "50%")
+    $('.des').css("padding", "2.5em 0 0 1.4em")
+    $('.descriptionProject p').css({
+        width: "70%"
+    })
+
+    $('.descriptionProject3 p').css({
+        width: "60%"
+    })
+
+    $('.descriptionProject2 p').css({
+        width: "60%"
+    })
+
+    $('#bg2').css("width", "50%")
+    $('#aboutMe p').css("width", "75%")
+    $('#statutEmma').css("width", "15%")
+    $('#columnInfos').css("marginTop", "-1%")
 }
+
+
 
 function getHardskill () {
     let html = "";

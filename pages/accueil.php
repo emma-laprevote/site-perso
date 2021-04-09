@@ -1,9 +1,8 @@
 <?php
-$pageTitle = 'EMMA LAPREVOTE';
+$pageTitle = 'EMMA LAPREVOTE - HOME';
 ob_start();
 $path = "../";
 ?>
-
 
 <!-- HEADER OBLIQUE + NAVBAR + IDENTITE + DEFINITION DU METIER DE DEVELOPPEUR WEB FULL STACK -->
 <header data-barba="container" data-barba-namespace="accueil">
@@ -24,7 +23,6 @@ $path = "../";
          <li><a href="#project">PROJETS</a></li>
          <li><a href="#contactMe">CONTACT</a></li>
       </ul>
-
       <div id="presentEmma">
         <h1 id="nameIdentity">EMMA <span id="lastName">LAPREVOTE</span></h1>
         <h2 id="definitionDev"><span>Développeur(se) full-stack</span> / dev.lɔ.pœʁ / masculin / feminin</h2>
@@ -37,29 +35,22 @@ $path = "../";
 
 <main id="main_site" data-barba="container" data-barba-namespace="accueil">
     <article id="presentation">
-    <div id="sectionAboutMe"></div>
-
-        <div id="pictureEmma"></div>
-
+        <div id="sectionAboutMe"></div>
+            <img id="statutEmma" src="../images/statut.png" alt="image 3D Emma laprevote style statut">
         <div id="columnInfos">
-                <div id="rowTitle">
-                    <div id="tabCaseAbout"><a id="linkAboutMe" href="#aboutMe"><p id="typoAboutMe">about me</p></a></div>
-                    <div id="tabCaseHard"><a id="linkHardSkill" href="#hardSkill"><p id="typoHardSkills">hardskills</p></a></div>
-                </div>
-
+            <div id="rowTitle">
+                <div id="tabCaseAbout"><a id="linkAboutMe" href="#aboutMe"><p id="typoAboutMe">about me</p></a></div>
+                <div id="tabCaseHard"><a id="linkHardSkill" href="#hardSkill"><p id="typoHardSkills">hardskills</p></a></div>
+            </div>
            <div id="rowBlock">
             <div id="aboutMe">
-                <h5>EMMA <span id="lastName">Laprevote / AIX-MARSEILLE</span> / <a href="https://www.linkedin.com/in/emkalaprevote/" target="_blank"><i class="fab fa-linkedin-in"></i></a><a href="https://github.com/emma-laprevote" target="_blank"><i class="fab fa-github-alt"></i></a><a href="https://twitter.com/ELaprevote" target="_blank"><i class="fab fa-twitter"></i></a></h5>
-
+                <h3>EMMA <span id="lastName">Laprevote / AIX-MARSEILLE</span> / <a href="https://www.linkedin.com/in/emkalaprevote/" target="_blank"><i class="fab fa-linkedin-in"></i></a><a href="https://github.com/emma-laprevote" target="_blank"><i class="fab fa-github-alt"></i></a><a href="https://twitter.com/ELaprevote" target="_blank"><i class="fab fa-twitter"></i></a></h3>
                 <p>En pleine reconversion professionnelle dans le numérique au sein de la <strong>Coding
                    School à La Plateforme_</strong>, afin de fusionner mes compétences
-                   en <strong>communication graphique</strong> avec celles acquises tout au long de ma formation, dans le <strong>développement web</strong>
+                   en <strong>communication graphique</strong> avec celles acquises tout au long de ma formation, dans le <strong>développement web.</strong>
                 </p>
-
                 <p id="softskills"><span class="softNormal">attentive</span><span class="contrast">rigoureuse</span><span class="softS">passionnée</span> <span class="softS">motivée</span><span class="softNormal">dynamique</span><span class="softS">autodidacte</span>_</p>
-
             </div>
-
             <div id="hardSkill">
                 <div class="rowColumn">
                     <img id="html" src="../images/icones/html.png" alt="Icone HTML5">
@@ -78,7 +69,6 @@ $path = "../";
             </div>
          </div>
         </article>
-
         <section id="project">
             <div class="project__bg"></div>
                 <div id="titleSection">
@@ -128,7 +118,7 @@ $path = "../";
             <div id="msg_contact">
                 <div>
                 <h4>contact me.</h4>
-                <h6><i class="material-icons left">search</i>recherche<span>alternance</span>.</h6>
+                <h5><i class="material-icons left">search</i>recherche<span>alternance</span>.</h5>
                 <p>Je suis actuellement en <strong>recherche d'alternance</strong> pour l'année 2021/2022 pour un poste
                 en tant que <strong>développeuse web full-stack</strong>.<br><br>
                 Mes compétences actuelles étant <strong>PHP, MYSQL et JAVASCRIPT</strong>,
@@ -195,7 +185,6 @@ $path = "../";
                                 <a href="https://twitter.com/ELaprevote" target="_blank"><i class="fab fa-twitter"></i></a>
                             </div>
                         </div>
-
                         <a id="backTop" href="#navEmma"><i class="material-icons">expand_less</i></a>
                     </div>
                 </section>
