@@ -115,7 +115,7 @@ barba.init({
 
     function buttonEnter () {
         let html = "";
-        html += "<div class='divEnter'><a id=\"enterSite\" href=\"./accueil.php\"><img id=\"imgEnterRes\" src=\"../images/bulleEnterResponsive.png\"></a></div>";
+        html += "<div class='divEnter'><a id=\"enterSite\" href=\"pages/accueil.php\"><img id=\"imgEnterRes\" src=\"../images/bulleEnterResponsive.png\"></a></div>";
 
         return html;
     }

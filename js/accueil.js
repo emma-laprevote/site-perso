@@ -1,5 +1,5 @@
 
-//Page accueil inital:
+//Page accueil initial:
 $('#hardSkill').hide();
 $('#typoAboutMe').css({
     borderBottom: '1px solid black',
@@ -192,7 +192,7 @@ if (window.matchMedia("(min-width:280px)").matches && window.matchMedia("(max-wi
 
     $('#softskills').css({
         width: "50%",
-        fontSize: "1.2em",
+        fontSize: "1.1em",
         marginBottom: "2em"
     })
 
@@ -200,7 +200,7 @@ if (window.matchMedia("(min-width:280px)").matches && window.matchMedia("(max-wi
     $('#statutEmma').remove()
     $('#presentation').css("height", "40%")
 
-    $('#columnInfos').css("marginLeft", "1.5em")
+    $('#columnInfos').css("marginLeft", "-19%")
     $('#aboutMe p').css("width", "95%")
     $('#aboutMe p').css("padding", "0")
     $('#aboutMe h5').css({
