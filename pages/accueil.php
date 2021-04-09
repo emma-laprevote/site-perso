@@ -9,7 +9,7 @@ $path = "../";
     <div class="header__bg"></div>
       <nav id="navEmma">
         <div class="nav-wrapper">
-           <img id="typoLogoMenu" src="../images/typoemka.png" alt="logo Emma Laprevote">
+           <img id="typoLogoMenu" src="../images/typoemka.png" alt="identité visuelle typographique de Emma Laprevote, dévellopeuse Marseille">
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul id="navBar" class="right hide-on-med-and-down">
             <li><a href="#presentation"><span class="link">ABOUT ME</span></a></li>
@@ -36,7 +36,7 @@ $path = "../";
 <main id="main_site" data-barba="container" data-barba-namespace="accueil">
     <article id="presentation">
         <div id="sectionAboutMe"></div>
-            <img id="statutEmma" src="../images/statut.png" alt="image 3D Emma laprevote style statut">
+            <img id="statutEmma" src="../images/statut.png" alt="image 3D avec effet textuel du portrait de Emma laprevote, dévellopeuse web, Marseille">
         <div id="columnInfos">
             <div id="rowTitle">
                 <div id="tabCaseAbout"><a id="linkAboutMe" href="#aboutMe"><p id="typoAboutMe">about me</p></a></div>
@@ -44,7 +44,7 @@ $path = "../";
             </div>
            <div id="rowBlock">
             <div id="aboutMe">
-                <h3>EMMA <span id="lastName">Laprevote / AIX-MARSEILLE</span> / <a href="https://www.linkedin.com/in/emkalaprevote/" target="_blank"><i class="fab fa-linkedin-in"></i></a><a href="https://github.com/emma-laprevote" target="_blank"><i class="fab fa-github-alt"></i></a><a href="https://twitter.com/ELaprevote" target="_blank"><i class="fab fa-twitter"></i></a></h3>
+                <h1>EMMA <span id="lastName">Laprevote / AIX-MARSEILLE</span> / <a href="https://www.linkedin.com/in/emkalaprevote/" target="_blank"><i class="fab fa-linkedin-in"></i></a><a href="https://github.com/emma-laprevote" target="_blank"><i class="fab fa-github-alt"></i></a><a href="https://twitter.com/ELaprevote" target="_blank"><i class="fab fa-twitter"></i></a></h1>
                 <p>En pleine reconversion professionnelle dans le numérique au sein de la <strong>Coding
                    School à La Plateforme_</strong>, afin de fusionner mes compétences
                    en <strong>communication graphique</strong> avec celles acquises tout au long de ma formation, dans le <strong>développement web.</strong>
@@ -53,18 +53,18 @@ $path = "../";
             </div>
             <div id="hardSkill">
                 <div class="rowColumn">
-                    <img id="html" src="../images/icones/html.png" alt="Icone HTML5">
-                    <img id="css" src="../images/icones/css.png" alt="Icone CSS3">
-                    <img class="iconesTech" src="../images/icones/php.png" alt="Icone PHP">
-                    <img class="iconesTech" src="../images/icones/sql.png" alt="Icone MYSQL">
-                    <img id="git" src="../images/icones/git.png" alt="Icone GIT">
+                    <img id="html" src="../images/icones/html.png" alt="Icone language HTML5, utilisé dans le dévellopement web et par Emma Laprevote">
+                    <img id="css" src="../images/icones/css.png" alt="Icone language CSS3, utilisé dans le dévellopement web et par Emma Laprevote">
+                    <img class="iconesTech" src="../images/icones/php.png" alt="Icone du language de programmation PHP, utilisé dans le dévellopement web et par Emma Laprevote">
+                    <img class="iconesTech" src="../images/icones/sql.png" alt="Icone du language MYSQL, utilisé dans le dévellopement web et par Emma Laprevote">
+                    <img id="git" src="../images/icones/git.png" alt="Icone GIT, utilisé dans le dévellopement web, et par Emma Laprevote">
                 </div>
                 <div class="rowColumn">
-                    <img id="composer" src="../images/icones/composer.png" alt="Icone COMPOSER">
-                    <img id="js" src="../images/icones/js.png" alt="Icone JAVASCRIPT">
-                    <img id="jQuery" src="../images/icones/jquery.png" alt="Icone JQUERY">
-                    <img id="ubuntu" src="../images/icones/ubuntu.png" alt="Icone UBUNTU">
-                    <img id="adobe" src="../images/icones/adobe.png" alt="Icone ADOBE">
+                    <img id="composer" src="../images/icones/composer.png" alt="Icone COMPOSER, utilisé dans le dévellopement web et par Emma Laprevote">
+                    <img id="js" src="../images/icones/js.png" alt="Icone language de programmation JAVASCRIPT, utilisé dans le dévellopement web et par Emma Laprevote">
+                    <img id="jQuery" src="../images/icones/jquery.png" alt="Icone de la librairie JQUERY, utilisé dans le dévellopement web et par Emma Laprevote">
+                    <img id="ubuntu" src="../images/icones/ubuntu.png" alt="Icone UBUNTU, utilisé dans le dévellopement web et par Emma Laprevote">
+                    <img id="adobe" src="../images/icones/adobe.png" alt="Icone ADOBE, utilisé dans le dévellopement web et par Emma Laprevote">
                 </div>
             </div>
          </div>
@@ -72,43 +72,43 @@ $path = "../";
         <section id="project">
             <div class="project__bg"></div>
                 <div id="titleSection">
-                    <h4>projets</h4>
+                    <h1>projets</h1>
                     <p>Une petite selection de quelques projets réaliser depuis le début de l'année jusqu'à maintenant.
                     Vous pouvez retrouvez la totalité des projets sur mon  <a style="color: white;" href="https://github.com/emma-laprevote">GITHUB <i style="color: white; font-size: 1.2em;" class="fab fa-github-alt"></i></a>.</p>
                 </div>
             <div id="carousel">
                    <div class="hideLeft">
-                    <img src="../images/carousel/ide.png" alt="page d'accueil projet html ide favoris">
+                    <img src="../images/carousel/ide.png" alt="page d'accueil projet Emma Laprevote html ide favoris, développement web">
                     <a id="modalIde" href="#ide"><p class="linkProject"><span>IDE FAVORIS / <strong>HTML5 / CSS3</strong></span></p></a>
                   </div>
 
                   <div class="prevLeftSecond">
-                    <img src="../images/carousel/appfav.png" alt="page d'accueil projet html application favorite">
+                    <img src="../images/carousel/appfav.png" alt="page d'accueil projet Emma Laprevote html application favorite, développement web">
                     <a id="modalApp" href="#appfav"><p class="linkProject"><span>APPLICATION FAVORITES / <strong>HTML5 / CSS3</strong></span></p></a>
                   </div>
 
                   <div class="prev">
-                    <img src="../images/carousel/slash.png" alt="page d'accueil projet php module-connexion">
+                    <img src="../images/carousel/slash.png" alt="page d'accueil projet Emma Laprevote php module-connexion, développement web">
                     <a id="modalSlash" href="#slash"><p class="linkProject"><span>SLASH MAGAZINE / <strong>PHP</strong></span></p></a>
                   </div>
 
                   <div class="selected">
-                     <img src="../images/carousel/livreor.png" alt="page d'accueil projet php livre d'or">
+                     <img src="../images/carousel/livreor.png" alt="page d'accueil projet Emma Laprevote php livre d'or, développement web">
                      <a id="modalLivre" href="#modalProject"><p class="linkProject"><span>NOISE POLLUTION / <strong>PHP</strong></span></p></a>
                   </div>
 
                   <div class="next">
-                    <img src="../images/carousel/discussion.png" alt="page d'accueil projet php discussion">
+                    <img src="../images/carousel/discussion.png" alt="page d'accueil projet Emma Laprevote php discussion, développement web">
                     <a id="modalDiscu" href="#discussion"><p class="linkProject"><span>THE FACTORY / <strong>PHP</strong></span></p></a>
                   </div>
 
                   <div class="nextRightSecond">
-                    <img src="../images/carousel/blogout.png" alt="page d'accueil projet php blog">
+                    <img src="../images/carousel/blogout.png" alt="page d'accueil projet Emma Laprevote php blog, développement web">
                     <a id="modalBlog" href="#blogout"><p class="linkProject"><span>BLOGOUT / <strong>PHP</strong></span></p></a>
                   </div>
 
                   <div class="hideRight">
-                    <img src="../images/carousel/boutique.png" alt="page d'accueil projet php boutique en ligne">
+                    <img src="../images/carousel/boutique.png" alt="page d'accueil projet Emma Laprevote php boutique en ligne, développement web">
                     <a id="modalShop" href="#jungle"><p class="linkProject"><span>JUNGLE GARDENER / <strong>PHP</strong></span></p></a>
                   </div>
                 </div>
@@ -117,8 +117,8 @@ $path = "../";
         <section id="contactMe">
             <div id="msg_contact">
                 <div>
-                <h4>contact me.</h4>
-                <h5><i class="material-icons left">search</i>recherche<span>alternance</span>.</h5>
+                <h1>contact me.</h1>
+                <h2><i class="material-icons left">search</i>recherche<span>alternance</span>.</h2>
                 <p>Je suis actuellement en <strong>recherche d'alternance</strong> pour l'année 2021/2022 pour un poste
                 en tant que <strong>développeuse web full-stack</strong>.<br><br>
                 Mes compétences actuelles étant <strong>PHP, MYSQL et JAVASCRIPT</strong>,
@@ -173,7 +173,7 @@ $path = "../";
             <div class="footer__bg"></div>
                 <section id="sectionFooter">
                     <div id="logoFooter">
-                        <img src="../images/logoemka.png" alt="logo Emma Laprevote" id="logoF">
+                        <img src="../images/logoemka.png" alt="identité visuelle portrait minimaliste de Emma Laprevote, dévellopeuse web, Marseille" id="logoF">
 
                         <div id="contactEmma">
                             <p id="nameEmma">EMMA<br><span id="lastName">LAPREVOTE</span></p>
@@ -193,6 +193,7 @@ $path = "../";
 </main>
 
 <script type="text/javascript" src="../js/accueil.js"></script>
+<script type="text/javascript" src="../js/responsive-accueil.js"></script>
 <script type="text/javascript" src="../js/modals.js"></script>
 <script type="text/javascript" src="../js/contact.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>

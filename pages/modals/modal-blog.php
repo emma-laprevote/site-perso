@@ -4,14 +4,14 @@
         </div>
         <div class="modal-content">
             <div id="bg">
-                <img id="tab1" src="../images/imagesite/blog.png"/>
-                <img id="tab2" src="../images/imagesite/blog2.png"/>
-                <img id="tab3" src="../images/imagesite/blog3.png"/>
-                <img id="tab3" src="../images/imagesite/blog4.png"/>
-                <img id="tab3" src="../images/imagesite/blog5.png"/>
-                <img id="tab3" src="../images/imagesite/blog6.png"/>
-                <img id="tab3" src="../images/imagesite/blog7.png"/>
-                <img id="tab3" src="../images/imagesite/blog8.png"/>
+                <img id="tab1" src="../images/imagesite/blog.png" alt="Projet blogout Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab2" src="../images/imagesite/blog2.png" alt="Projet blogout Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab3" src="../images/imagesite/blog3.png" alt="Projet blogout Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab3" src="../images/imagesite/blog4.png" alt="Projet blogout Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab3" src="../images/imagesite/blog5.png" alt="Projet blogout Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab3" src="../images/imagesite/blog6.png" alt="Projet blogout Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab3" src="../images/imagesite/blog7.png" alt="Projet blogout Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab3" src="../images/imagesite/blog8.png" alt="Projet blogout Emma Laprevote, développeuse web, Marseille"/>
             </div>
         <div class="contentColumn2">
             <div id="titleProject2">
@@ -36,3 +36,4 @@
     </div>
 
     <script type="text/javascript" src="../js/accueil.js"></script>
+    <script type="text/javascript" src="../js/responsive-accueil.js"></script>

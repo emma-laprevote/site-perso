@@ -6,10 +6,10 @@
                  <div class="modal-content">
 
                     <div id="bg">
-                       <img id="tab1" src="../images/imagesite/livreor.png"/>
-                       <img id="tab2" src="../images/imagesite/livreor2.png"/>
-                       <img id="tab3" src="../images/imagesite/livreor3.png"/>
-                       <img id="tab4" src="../images/imagesite/livreor4.png"/>
+                       <img id="tab1" src="../images/imagesite/livreor.png" alt="Projet noise pollution Emma Laprevote, développeuse web, Marseille"/>
+                       <img id="tab2" src="../images/imagesite/livreor2.png" alt="Projet noise pollution Emma Laprevote, développeuse web, Marseille"/>
+                       <img id="tab3" src="../images/imagesite/livreor3.png" alt="Projet noise pollution Emma Laprevote, développeuse web, Marseille"/>
+                       <img id="tab4" src="../images/imagesite/livreor4.png" alt="Projet noise pollution Emma Laprevote, développeuse web, Marseille"/>
                     </div>
 
                     <div class="contentColumn">
@@ -38,3 +38,4 @@
                  </div>
 
                  <script type="text/javascript" src="../js/accueil.js"></script>
+                 <script type="text/javascript" src="../js/responsive-accueil.js"></script>

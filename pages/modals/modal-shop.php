@@ -4,14 +4,14 @@
         </div>
         <div class="modal-content">
             <div id="bg2">
-                <img id="tab1" src="../images/imagesite/shop.png"/>
-                <img id="tab2" src="../images/imagesite/shop2.png"/>
-                <img id="tab3" src="../images/imagesite/shop3.png"/>
-                <img id="tab3" src="../images/imagesite/shop4.png"/>
-                <img id="tab3" src="../images/imagesite/shop5.png"/>
-                <img id="tab3" src="../images/imagesite/shop6.png"/>
-                <img id="tab3" src="../images/imagesite/shop7.png"/>
-                <img id="tab3" src="../images/imagesite/shop8.png"/>
+                <img id="tab1" src="../images/imagesite/shop.png" alt="Projet jungle gardener Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab2" src="../images/imagesite/shop2.png" alt="Projet jungle gardener Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab3" src="../images/imagesite/shop3.png" alt="Projet jungle gardener Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab3" src="../images/imagesite/shop4.png" alt="Projet jungle gardener Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab3" src="../images/imagesite/shop5.png" alt="Projet jungle gardener Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab3" src="../images/imagesite/shop6.png" alt="Projet jungle gardener Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab3" src="../images/imagesite/shop7.png" alt="Projet jungle gardener Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab3" src="../images/imagesite/shop8.png" alt="Projet jungle gardener Emma Laprevote, développeuse web, Marseille"/>
             </div>
         <div class="contentColumn2">
             <div id="titleProject2">
@@ -38,3 +38,4 @@
     </div>
 
     <script type="text/javascript" src="../js/accueil.js"></script>
+    <script type="text/javascript" src="../js/responsive-accueil.js"></script>
