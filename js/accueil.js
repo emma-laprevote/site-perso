@@ -129,11 +129,11 @@ if (window.matchMedia("(min-width:280px)").matches && window.matchMedia("(max-wi
     $('#typoLogoMenu').css("padding", "0");
     $('#typoLogoMenu').css("width", "20%");
     $('#typoLogoMenu').css({
-        marginLeft: "24%",
+        marginLeft: "30%",
         paddingTop: "2em"
     })
     $('#presentEmma').css("width", "70%")
-    $('#presentEmma').css("margin", "6em 0 0 3em");
+    $('#presentEmma').css("margin", "12em 0 0 3em");
     $('#nameIdentity').css({
         fontSize: "2.5em"
     })
@@ -221,10 +221,16 @@ if (window.matchMedia("(min-width:280px)").matches && window.matchMedia("(max-wi
         fontSize: "12px"
     })
 
-    //MODAL
-    $('.modal-content').css("flexDirection", "column")
+    $('#msg_contact div').css("paddingTop", "2em")
+    $('#logoF').css("width", "30%")
 
     if(window.matchMedia("(min-width:280px)").matches && window.matchMedia("(max-width:500px)").matches){
+
+        $('#presentEmma').css("margin", "6em 0 0 3em");
+        $('#typoLogoMenu').css({
+            marginLeft: "24%",
+            paddingTop: "2em"
+        })
         $('#project').css("height", "90rem")
         $('#carousel').removeAttr("style");
         $('#carousel').css({
@@ -235,6 +241,18 @@ if (window.matchMedia("(min-width:280px)").matches && window.matchMedia("(max-wi
 
         $('#carousel div').css("width", "90%")
         $('#carousel img').css("width", "90%")
+
+        $('#contactMe').css("flexDirection", "column")
+        $('#contactMe').css("height", "63rem")
+
+        $('#msg_contact').css("width", "100%")
+        $('#formContact').css("width", "100%")
+        $('#formContactEmka').css("marginTop", "2em")
+        $('#formContactEmka').css({margin: "0 auto"})
+        $('#msg_contact div').css("paddingTop", "0")
+
+        $('#backTop').css("marginLeft", "2em")
+
     }
 
 }
@@ -261,32 +279,25 @@ function getProject () {
     let html = "";
 
     html += '<div class="resProject">'
-    html += '<img src="../images/carousel/ide.png" alt="page d\'accueil projet html ide favoris">'
-    html += '<a id="modalIde" href="#ide"><p class="linkProject"><span>IDE FAVORIS / <strong>HTML5 / CSS3</strong></span></p></a>'
+    html += '<img src="../images/carousel/ide.png" alt="page d\'accueil projet html ide favoris"><a href="https://github.com/emma-laprevote/ide"><p class="linkProject"><span>IDE FAVORIS / <strong>HTML5 / CSS3</strong></span></p></a>'
     html += '</div>'
     html += '<div class="resProject">'
-    html += '<img src="../images/carousel/appfav.png" alt="page d\'accueil projet html application favorite">'
-    html += '<a id="modalApp" href="#appfav"><p class="linkProject"><span>APPLICATION FAVORITES / <strong>HTML5 / CSS3</strong></span></p></a>'
+    html += '<img src="../images/carousel/appfav.png" alt="page d\'accueil projet html application favorite"><a href="https://github.com/emma-laprevote/app-favorites"><p class="linkProject"><span>APPLICATION FAVORITES / <strong>HTML5 / CSS3</strong></span></p></a>'
     html += '</div>'
     html += '<div class="resProject">'
-    html += '<img src="../images/carousel/slash.png" alt="page d\'accueil projet php module-connexion">'
-    html += '<a id="modalSlash" href="#slash"><p class="linkProject"><span>SLASH MAGAZINE / <strong>PHP</strong></span></p></a>'
+    html += '<img src="../images/carousel/slash.png" alt="page d\'accueil projet php module-connexion"><a href="https://github.com/emma-laprevote/module-connexion"><p class="linkProject"><span>SLASH MAGAZINE / <strong>PHP</strong></span></p></a>'
     html += '</div>'
     html += '<div class="resProject">'
-    html += '<img src="../images/carousel/livreor.png" alt="page d\'accueil projet php livre d\'or">'
-    html += '<a id="modalLivre" href="#modalProject"><p class="linkProject"><span>NOISE POLLUTION / <strong>PHP</strong></span></p></a>'
+    html += '<img src="../images/carousel/livreor.png" alt="page d\'accueil projet php livre d\'or"><a href="https://github.com/emma-laprevote/livre-or"><p class="linkProject"><span>NOISE POLLUTION / <strong>PHP</strong></span></p></a>'
     html += '</div>'
     html += '<div class="resProject">'
-    html += '<img src="../images/carousel/discussion.png" alt="page d\'accueil projet php discussion">'
-    html += '<a id="modalDiscu" href="#discussion"><p class="linkProject"><span>THE FACTORY / <strong>PHP</strong></span></p></a>'
+    html += '<img src="../images/carousel/discussion.png" alt="page d\'accueil projet php discussion"><a href="https://github.com/emma-laprevote/discussion"><p class="linkProject"><span>THE FACTORY / <strong>PHP</strong></span></p></a>'
     html += '</div>'
     html += '<div class="resProject">'
-    html += '<img src="../images/carousel/blogout.png" alt="page d\'accueil projet php blog">'
-    html += '<a id="modalBlog" href="#blogout"><p class="linkProject"><span>BLOGOUT / <strong>PHP</strong></span></p></a>'
+    html += '<img src="../images/carousel/blogout.png" alt="page d\'accueil projet php blog"><a href="https://github.com/emma-laprevote/blog"><p class="linkProject"><span>BLOGOUT / <strong>PHP</strong></span></p></a>'
     html += '</div>'
     html += '<div class="resProject">'
-    html += '<img src="../images/carousel/boutique.png" alt="page d\'accueil projet php boutique en ligne">'
-    html += '<a id="modalShop" href="#jungle"><p class="linkProject"><span>JUNGLE GARDENER / <strong>PHP</strong></span>'
+    html += '<img src="../images/carousel/boutique.png" alt="page d\'accueil projet php boutique en ligne"><a href="https://github.com/emma-laprevote/boutique"><p class="linkProject"><span>JUNGLE GARDENER / <strong>PHP</strong></span>'
     html += '</div>'
 
     return html;

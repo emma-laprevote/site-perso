@@ -559,6 +559,11 @@ strong {
     color: white;
 }
 
+.responseModal {
+    position: relative;
+    color: white;
+}
+
 .contentColumn {
   display: flex;
     flex-direction: column;
@@ -746,7 +751,6 @@ strong {
 
 #msg_contact {
     width: 50%;
-
 }
 
 #msg_contact div {
