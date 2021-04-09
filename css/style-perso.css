@@ -16,6 +16,7 @@
 
 html {
     background-color: black;
+    height:100%;
 }
 
 
@@ -157,11 +158,25 @@ header {
  #navEmma{
     height: 8em;!important
      position: relative!important;
+     background-color: transparent!important;
 }
 
 #typoLogoMenu {
     width: 15%;
     padding: 4em 0 0 4em;
+    position: relative;
+}
+
+.sidenav {
+    background-color: black!important;
+    opacity: 80%!important;
+    color: white!important;
+}
+
+.sidenav li a {
+    color: white!important;
+    font-family: kiona, sans-serif!important;
+    padding-top: 4em!important;
 }
 
 #navBar{
@@ -188,6 +203,7 @@ header {
 #nameIdentity {
     font-family: Beckman, sans-serif;
     color: white;
+    font-size: 3.5em;
 }
 
 #presentEmma {
@@ -201,8 +217,11 @@ header {
     font-family: kiona, sans-serif;
 }
 
+#definitionDev {
+    font-size: 1.3em;
+}
+
 #definitionDev span {
-    font-size: 1.5em;
     font-weight: bold;
 }
 
@@ -223,7 +242,7 @@ header {
 #presentation {
     display: flex;
     flex-direction: row;
-    justify-content: normal;
+    justify-content: space-around;
     position: relative;
     height: 20rem;
     overflow: hidden;
@@ -235,8 +254,8 @@ header {
     flex-direction: column;
     position: relative;
     width: 60%;
-    margin-left: 6em;
-    margin-top: -1%;
+    margin-left: 10%;
+    margin-top: -2%;
 }
 
 #rowBlock {
@@ -244,13 +263,19 @@ header {
     flex-direction: row;
 }
 
-#pictureEmma {
-    width: 30%;
-    height: 30em;
+
+#statutEmma {
+    width: 18%;
+    margin-left: 15%;
+    margin-bottom: 1em;
 }
 
 #aboutMe{
     width: 95%;
+}
+
+#aboutMe h3 {
+    font-size: 1.6em;
 }
 
 #titleAboutMe,
@@ -258,11 +283,6 @@ header {
     max-width: 80%;
     margin-left: -2em;
     padding-bottom: 2em;
-}
-
-#aboutMe h6 {
-    font-family: 'Zilla Slab Highlight', cursive;
-    font-size: 1.5em;
 }
 
 #softskills {
@@ -522,8 +542,8 @@ strong {
 /* CSS MODALS */
 
 #modalProject {
-    width: 80%;
-    min-height: 83vh;
+    width: 90%;
+    max-height: 83vh;
     margin-bottom: 3em;
 }
 
@@ -534,11 +554,11 @@ strong {
     right: 0;
     left: 0;
     width: 100%;
-    height: 45%;
+    height: 42%;
     background-color: black;
     background-size: cover;
     background-position: top;
-    transform: skewY(-6deg);
+    transform: skewY(-4deg);
     transform-origin: top left;
 }
 
@@ -546,6 +566,11 @@ strong {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    position: relative;
+    color: white;
+}
+
+.responseModal {
     position: relative;
     color: white;
 }
@@ -558,14 +583,14 @@ strong {
 .contentColumn2 {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
 }
 
 #titleProject {
-    margin: -2em 0 0 3em;
+    margin: -2.5em 0 0 3em;
 }
 
-#titleProject h2 {
+#titleProject h1 {
     font-family: 'Archivo Black', sans-serif;
 }
 
@@ -573,7 +598,11 @@ strong {
     margin: -2.5em 0 0 3em;
 }
 
-#titleProject2 h2 {
+#linkGit {
+    padding: 0!important;
+}
+
+#titleProject2 h1 {
     font-family: 'Archivo Black', sans-serif;
 }
 
@@ -609,7 +638,7 @@ strong {
 .des {
     font-family: kiona, sans-serif;
     font-size: 1.5em;
-    padding: 2em 0 0 1.4em;
+    padding: 1.1em 0 0 1.4em;
     text-transform: uppercase;
 }
 
@@ -624,6 +653,14 @@ strong {
     font-family: "Roboto Thin", sans-serif;
     font-size: 13px;
     padding: 0 2em 0 3em;
+}
+
+.descriptionProject ul{
+    margin-top: -0.5em;
+}
+
+.descriptionProject2 ul{
+    margin-top: -0.5em;
 }
 
 .descriptionProject ul li {
@@ -659,6 +696,17 @@ strong {
 }
 
 #bg img {
+    width: 100%;
+}
+
+#bg2 {
+    width: 70%;
+    height: 30em;
+    overflow:hidden;
+    margin-top: -2.5em;
+}
+
+#bg2 img {
     width: 100%;
 }
 
@@ -714,7 +762,6 @@ strong {
 
 #msg_contact {
     width: 50%;
-
 }
 
 #msg_contact div {
@@ -747,10 +794,11 @@ strong {
     border-bottom: solid 1px black;
 }
 
-#msg_contact h6 {
+#msg_contact h5 {
     font-family: kiona, sans-serif;
     color: black;
     margin-top: 2em;
+    font-size: 16px;
 }
 
 #msg_contact p {

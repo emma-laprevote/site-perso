@@ -189,8 +189,18 @@ $('#modalShop').click(function (e) {
             $('#modalProject').modal();
             $('#modalProject').modal('open');
 
-            $('#bg').mouseenter(function () {
-                slideDiv();
+            $('#bg2').mouseenter(function () {
+                let div = $('#bg2')
+
+                let scroller = setInterval(function(){
+                    let pos = div.scrollTop();
+                    div.scrollTop(pos + 2);
+
+                }, 60)
+
+                div.mouseleave(function (){
+                    clearInterval(scroller);
+                })
             })
 
             $('#closeModal').click(function(){
