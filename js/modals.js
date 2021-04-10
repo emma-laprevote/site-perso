@@ -20,7 +20,7 @@ $('#modalLivre').click(function (e) {
     e.preventDefault();
 
     $.ajax({
-        url: "../pages/modals/modals.php",
+        url: "pages/modals/modals.php",
         type: "get",
         dataType: "html",
 
@@ -47,7 +47,7 @@ $('#modalSlash').click(function (e) {
     e.preventDefault();
 
     $.ajax({
-        url: "../pages/modals/modal-slash.php",
+        url: "pages/modals/modal-slash.php",
         type: "get",
         dataType: "html",
 
@@ -74,7 +74,7 @@ $('#modalApp').click(function (e) {
     e.preventDefault();
 
     $.ajax({
-        url: "../pages/modals/modal-app.php",
+        url: "pages/modals/modal-app.php",
         type: "get",
         dataType: "html",
 
@@ -101,7 +101,7 @@ $('#modalIde').click(function (e) {
     e.preventDefault();
 
     $.ajax({
-        url: "../pages/modals/modal-ide.php",
+        url: "pages/modals/modal-ide.php",
         type: "get",
         dataType: "html",
 
@@ -127,7 +127,7 @@ $('#modalDiscu').click(function (e) {
     e.preventDefault();
 
     $.ajax({
-        url: "../pages/modals/modal-discussion.php",
+        url: "pages/modals/modal-discussion.php",
         type: "get",
         dataType: "html",
 
@@ -153,7 +153,7 @@ $('#modalBlog').click(function (e) {
     e.preventDefault();
 
     $.ajax({
-        url: "../pages/modals/modal-blog.php",
+        url: "pages/modals/modal-blog.php",
         type: "get",
         dataType: "html",
 
@@ -179,7 +179,7 @@ $('#modalShop').click(function (e) {
     e.preventDefault();
 
     $.ajax({
-        url: "../pages/modals/modal-shop.php",
+        url: "pages/modals/modal-shop.php",
         type: "get",
         dataType: "html",
 

@@ -2,7 +2,7 @@ $('#myButton').click(function (e){
     e.preventDefault();
 
     $.ajax({
-        url: "../app/Mail.php",
+        url: "app/Mail.php",
         type: "post",
         data: {
             nom: $('input[name=nom]').val(),

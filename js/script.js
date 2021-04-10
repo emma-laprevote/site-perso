@@ -5,50 +5,6 @@ function changeImg() {
     setTimeout("changeImg()", 8000)
 }
 
-
-// SCRIPT PAGE TRANSITION BARBA / GSAP
-const wipe = document.querySelector('.wipe-transition');
-
-let TLAnim = new TimelineMax();
-
-function delay(n) {
-    return new Promise((done) => {
-        setTimeout(() => {
-            done();
-        }, n)
-    })
-}
-
-barba.init({
-
-    sync: true,
-
-    transitions: [
-        {
-            async leave(){
-
-                const done = this.async();
-
-                TLAnim.to(wipe, {left: '0%', ease: "power2.out", duration: 0.5});
-
-                await delay(1000);
-                done();
-
-            },
-            enter(){
-
-                 TLAnim
-                    .to(wipe, {left: '100%', ease:"power2.in", duration: 0.5})
-                    .set(wipe, {left: '-100%'})
-
-                 $('header').show();
-                 location.reload(true);
-            }
-        }
-    ]
-
-})
-
 // SCRIPT JQUERIES RESPONSIVE
 
     if (window.matchMedia("(min-width:280px)").matches && window.matchMedia("(max-width:900px)").matches) {
@@ -115,10 +71,29 @@ barba.init({
 
     function buttonEnter () {
         let html = "";
-        html += "<div class='divEnter'><a id=\"enterSite\" href=\"pages/accueil.php\"><img id=\"imgEnterRes\" src=\"../images/bulleEnterResponsive.png\"></a></div>";
+        html += "<div class='divEnter'><a id=\"enterSite\" href=\"pages/index.php\"><img id=\"imgEnterRes\" src=\"images/bulleEnterResponsive.png\"></a></div>";
 
         return html;
     }
+
+
+    $('#enterSite').click(function(e) {
+        e.preventDefault();
+
+                $.ajax({
+                    url: 'pages/accueil.php',
+                    type: 'get',
+                    dataType: 'html',
+
+                    success: function (data) {
+                        $('body').empty()
+                        $('body').append(data)
+                    }
+                })
+
+    })
+
+
 
 
 

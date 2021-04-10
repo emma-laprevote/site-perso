@@ -131,6 +131,7 @@ if (window.matchMedia("(min-width:280px)").matches && window.matchMedia("(max-wi
         $('#msg_contact div').css("paddingTop", "0")
 
         $('#backTop').css("marginLeft", "2em")
+        $('#logoF').remove()
 
     }
 
@@ -170,16 +171,16 @@ if (window.matchMedia("(min-width:280px)").matches && window.matchMedia("(max-wi
 function getHardskill () {
     let html = "";
     html += '<div class="rowImg">'
-    html += '<img id="html" src="../images/icones/html.png" alt="Icone language HTML5, utilisé dans le dévellopement web et par Emma Laprevote">'
-    html += '<img id="css" src="../images/icones/css.png" alt="Icone language CSS3, utilisé dans le dévellopement web et par Emma Laprevote">'
+    html += '<img id="html" src="images/icones/html.png" alt="Icone language HTML5, utilisé dans le dévellopement web et par Emma Laprevote">'
+    html += '<img id="css" src="images/icones/css.png" alt="Icone language CSS3, utilisé dans le dévellopement web et par Emma Laprevote">'
     html += '<img class="iconesTech" src="../images/icones/php.png" alt="Icone du language de programmation PHP, utilisé dans le dévellopement web et par Emma Laprevote">'
     html += '<img class="iconesTech" src="../images/icones/sql.png" alt="Icone du language MYSQL, utilisé dans le dévellopement web et par Emma Laprevote">'
     html += '</div>'
     html += '<div class="rowImg">'
-    html += '<img id="adobe" src="../images/icones/adobe.png" alt="Icone ADOBE, utilisé dans le dévellopement web et par Emma LaprevoteE">'
-    html += '<img id="git" src="../images/icones/git.png" alt="Icone GIT, utilisé dans le dévellopement web, et par Emma Laprevote">'
-    html += '<img id="js" src="../images/icones/js.png" alt="Icone language de programmation JAVASCRIPT, utilisé dans le dévellopement web et par Emma Laprevote">'
-    html += '<img id="jQuery" src="../images/icones/jquery.png" alt="Icone de la librairie JQUERY, utilisé dans le dévellopement web et par Emma Laprevote">'
+    html += '<img id="adobe" src="images/icones/adobe.png" alt="Icone ADOBE, utilisé dans le dévellopement web et par Emma LaprevoteE">'
+    html += '<img id="git" src="images/icones/git.png" alt="Icone GIT, utilisé dans le dévellopement web, et par Emma Laprevote">'
+    html += '<img id="js" src="images/icones/js.png" alt="Icone language de programmation JAVASCRIPT, utilisé dans le dévellopement web et par Emma Laprevote">'
+    html += '<img id="jQuery" src="images/icones/jquery.png" alt="Icone de la librairie JQUERY, utilisé dans le dévellopement web et par Emma Laprevote">'
     html += '</div>'
 
     return html;
@@ -189,25 +190,25 @@ function getProject () {
     let html = "";
 
     html += '<div class="resProject">'
-    html += '<img src="../images/carousel/ide.png" alt="page d\'accueil projet Emma Laprevote html ide favoris, développement web"><a href="https://github.com/emma-laprevote/ide"><p class="linkProject"><span>IDE FAVORIS / <strong>HTML5 / CSS3</strong></span></p></a>'
+    html += '<img src="images/carousel/ide.png" alt="page d\'accueil projet Emma Laprevote html ide favoris, développement web"><a href="https://github.com/emma-laprevote/ide"><p class="linkProject"><span>IDE FAVORIS / <strong>HTML5 / CSS3</strong></span></p></a>'
     html += '</div>'
     html += '<div class="resProject">'
-    html += '<img src="../images/carousel/appfav.png" alt="page d\'accueil projet Emma Laprevote html application favorite, développement web"><a href="https://github.com/emma-laprevote/app-favorites"><p class="linkProject"><span>APPLICATION FAVORITES / <strong>HTML5 / CSS3</strong></span></p></a>'
+    html += '<img src="images/carousel/appfav.png" alt="page d\'accueil projet Emma Laprevote html application favorite, développement web"><a href="https://github.com/emma-laprevote/app-favorites"><p class="linkProject"><span>APPLICATION FAVORITES / <strong>HTML5 / CSS3</strong></span></p></a>'
     html += '</div>'
     html += '<div class="resProject">'
-    html += '<img src="../images/carousel/slash.png" alt="page d\'accueil projet Emma Laprevote php module-connexion, développement web"><a href="https://github.com/emma-laprevote/module-connexion"><p class="linkProject"><span>SLASH MAGAZINE / <strong>PHP</strong></span></p></a>'
+    html += '<img src="images/carousel/slash.png" alt="page d\'accueil projet Emma Laprevote php module-connexion, développement web"><a href="https://github.com/emma-laprevote/module-connexion"><p class="linkProject"><span>SLASH MAGAZINE / <strong>PHP</strong></span></p></a>'
     html += '</div>'
     html += '<div class="resProject">'
-    html += '<img src="../images/carousel/livreor.png" alt="page d\'accueil projet Emma Laprevote php livre d\'or, développement web"><a href="https://github.com/emma-laprevote/livre-or"><p class="linkProject"><span>NOISE POLLUTION / <strong>PHP</strong></span></p></a>'
+    html += '<img src="images/carousel/livreor.png" alt="page d\'accueil projet Emma Laprevote php livre d\'or, développement web"><a href="https://github.com/emma-laprevote/livre-or"><p class="linkProject"><span>NOISE POLLUTION / <strong>PHP</strong></span></p></a>'
     html += '</div>'
     html += '<div class="resProject">'
-    html += '<img src="../images/carousel/discussion.png" alt="page d\'accueil projet Emma Laprevote php discussion, développement web"><a href="https://github.com/emma-laprevote/discussion"><p class="linkProject"><span>THE FACTORY / <strong>PHP</strong></span></p></a>'
+    html += '<img src="images/carousel/discussion.png" alt="page d\'accueil projet Emma Laprevote php discussion, développement web"><a href="https://github.com/emma-laprevote/discussion"><p class="linkProject"><span>THE FACTORY / <strong>PHP</strong></span></p></a>'
     html += '</div>'
     html += '<div class="resProject">'
-    html += '<img src="../images/carousel/blogout.png" alt="page d\'accueil projet Emma Laprevote php blog, développement web"><a href="https://github.com/emma-laprevote/blog"><p class="linkProject"><span>BLOGOUT / <strong>PHP</strong></span></p></a>'
+    html += '<img src="images/carousel/blogout.png" alt="page d\'accueil projet Emma Laprevote php blog, développement web"><a href="https://github.com/emma-laprevote/blog"><p class="linkProject"><span>BLOGOUT / <strong>PHP</strong></span></p></a>'
     html += '</div>'
     html += '<div class="resProject">'
-    html += '<img src="../images/carousel/boutique.png" alt="page d\'accueil projet Emma Laprevote php boutique en ligne, développement web"><a href="https://github.com/emma-laprevote/boutique"><p class="linkProject"><span>JUNGLE GARDENER / <strong>PHP</strong></span>'
+    html += '<img src="images/carousel/boutique.png" alt="page d\'accueil projet Emma Laprevote php boutique en ligne, développement web"><a href="https://github.com/emma-laprevote/boutique"><p class="linkProject"><span>JUNGLE GARDENER / <strong>PHP</strong></span>'
     html += '</div>'
 
     return html;

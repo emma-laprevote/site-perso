@@ -4,10 +4,10 @@
         </div>
         <div class="modal-content">
             <div id="bg">
-                <img id="tab1" src="../images/imagesite/appfav.png" alt="Projet app favorites Emma Laprevote, développeuse web, Marseille"/>
-                <img id="tab2" src="../images/imagesite/airbnb.png" alt="Projet app favorites Emma Laprevote, développeuse web, Marseille"/>
-                <img id="tab3" src="../images/imagesite/soundcloud.png" alt="Projet app favorites Emma Laprevote, développeuse web, Marseille"/>
-                <img id="tab3" src="../images/imagesite/vice.png" alt="Projet app favorites Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab1" src="images/imagesite/appfav.png" alt="Projet app favorites Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab2" src="images/imagesite/airbnb.png" alt="Projet app favorites Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab3" src="images/imagesite/soundcloud.png" alt="Projet app favorites Emma Laprevote, développeuse web, Marseille"/>
+                <img id="tab3" src="images/imagesite/vice.png" alt="Projet app favorites Emma Laprevote, développeuse web, Marseille"/>
             </div>
         <div class="contentColumn">
             <div id="titleProject2">
@@ -31,5 +31,5 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="../js/accueil.js"></script>
-    <script type="text/javascript" src="../js/responsive-accueil.js"></script>
+    <script type="text/javascript" src="js/accueil.js"></script>
+    <script type="text/javascript" src="js/responsive-accueil.js"></script>
