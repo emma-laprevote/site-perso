@@ -73,7 +73,7 @@ if (window.matchMedia("(min-width:280px)").matches && window.matchMedia("(max-wi
     })
     $('#composer').css("width", "14%")
     $('#js').css("width", "15%")
-    $('#adobe').css({
+    $('#js').css({
         height: "3.5em"
     })
 
