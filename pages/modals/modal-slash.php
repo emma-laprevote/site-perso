@@ -12,7 +12,7 @@
         <div class="contentColumn">
             <div id="titleProject2">
                 <h1>#CONNEXION</h1>
-                    <p><b>SLASH MAGAZINE</b> / PROJET <strong>PHP</strong> / 2020 / <a style="color: white;" href="https://github.com/emma-laprevote/module-connexion"><i style="color: white; font-size: 1.2em;" class="fab fa-github-alt"></i> GITHUB</a></p>
+                    <p><b>SLASH MAGAZINE</b> / PROJET <strong>PHP</strong> / 2020 / <a href="https://github.com/emma-laprevote/module-connexion"><i class="fab fa-github-alt"></i> GITHUB</a></p>
             </div>
             <div class="descriptionProject3">
                 <h2 class="des"><i class="material-icons left">expand_more</i>Description du projet</h2>

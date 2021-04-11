@@ -15,7 +15,7 @@
                     <div class="contentColumn">
                     <div id="titleProject">
                         <h1>#LIVRE D'OR</h1>
-                        <p><b>NOISE POLLUTION</b> / PROJET <strong>PHP</strong> / 2020 / <a style="color: white;" href="https://github.com/emma-laprevote/livre-or"><i style="color: white; font-size: 1.2em;" class="fab fa-github-alt"></i> GITHUB</a>
+                        <p><b>NOISE POLLUTION</b> / PROJET <strong>PHP</strong> / 2020 / <a href="https://github.com/emma-laprevote/livre-or"><i class="fab fa-github-alt"></i> GITHUB</a>
         </p>
                     </div>
                     <div class="descriptionProject">

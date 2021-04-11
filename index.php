@@ -84,7 +84,7 @@
             </div>
            <div id="rowBlock">
             <div id="aboutMe">
-                <h1>EMMA <span id="lastName">Laprevote / AIX-MARSEILLE</span> / <a href="https://www.linkedin.com/in/emkalaprevote/" target="_blank"><i class="fab fa-linkedin-in"></i></a><a href="https://github.com/emma-laprevote" target="_blank"><i class="fab fa-github-alt"></i></a><a href="https://twitter.com/ELaprevote" target="_blank"><i class="fab fa-twitter"></i></a></h1>
+                <h3>EMMA <span id="lastName">Laprevote / AIX-MARSEILLE</span> / <a href="https://www.linkedin.com/in/emkalaprevote/" rel="noopener" target="_blank"><i class="fab fa-linkedin-in"></i><span class="none">LinkedIn Emma Laprevote</span></a><a href="https://github.com/emma-laprevote" rel="noopener" target="_blank"><i class="fab fa-github-alt"></i><span class="none">Github Emma Laprevote</span></a><a href="https://twitter.com/ELaprevote" rel="noopener" target="_blank"><i class="fab fa-twitter"></i><span class="none">Twitter Emma Laprevote</span></a></h3>
                 <p>En pleine reconversion professionnelle dans le numérique au sein de la <strong>Coding
                    School à La Plateforme_</strong>, afin de fusionner mes compétences
                    en <strong>communication graphique</strong> avec celles acquises tout au long de ma formation, dans le <strong>développement web.</strong>
@@ -112,7 +112,7 @@
         <section id="project">
             <div class="project__bg"></div>
                 <div id="titleSection">
-                    <h1>projets</h1>
+                    <h4>projets</h4>
                     <p>Une petite selection de quelques projets réalisés depuis le début de l'année jusqu'à maintenant.
                     Vous pouvez retrouver la totalité des projets sur mon  <a style="color: white;" href="https://github.com/emma-laprevote">GITHUB <i style="color: white; font-size: 1.2em;" class="fab fa-github-alt"></i></a>.</p>
                 </div>
@@ -157,8 +157,8 @@
         <section id="contactMe">
             <div id="msg_contact">
                 <div>
-                <h1>contact me.</h1>
-                <h2><i class="material-icons left">search</i>recherche<span>alternance</span>.</h2>
+                <h5>contact me.</h5>
+                <h6><i class="material-icons left">search</i>recherche<span>alternance</span>.</h6>
                 <p>Je suis actuellement en <strong>recherche d'alternance</strong> pour l'année 2021/2022 pour un poste
                 en tant que <strong>développeuse web full-stack</strong>.<br><br>
                 Mes compétences actuelles étant <strong>PHP, MYSQL et JAVASCRIPT</strong>,
@@ -220,9 +220,9 @@
                             <p>Développeuse web <strong>full-stack.</strong></p>
                             <p>laprevote.emma@gmail.com</p>
                             <div id="linkSocial">
-                                <a href="https://www.linkedin.com/in/emkalaprevote/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="https://github.com/emma-laprevote" target="_blank"><i class="fab fa-github-alt"></i></a>
-                                <a href="https://twitter.com/ELaprevote" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/emkalaprevote/" rel="noopener" target="_blank"><i class="fab fa-linkedin-in"></i><span class="none">LinkedIn Emma Laprevote</span></a>
+                                <a href="https://github.com/emma-laprevote" rel="noopener" target="_blank"><i class="fab fa-github-alt"></i><span class="none">Github Emma Laprevote</span></a>
+                                <a href="https://twitter.com/ELaprevote" rel="noopener" target="_blank"><i class="fab fa-twitter"></i><span class="none">Twitter Emma Laprevote</span></a>
                             </div>
                         </div>
                         <a id="backTop" href="#navEmma"><i class="material-icons">expand_less</i></a>

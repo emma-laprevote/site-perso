@@ -16,7 +16,7 @@
         <div class="contentColumn2">
             <div id="titleProject2">
                 <h1>#BLOG</h1>
-                    <p><b>BLOGOUT</b> / PROJET <strong>PHP</strong> / 2021 / <a style="color: white;" href="https://github.com/emma-laprevote/blog"><i style="color: white; font-size: 1.2em;" class="fab fa-github-alt"></i> GITHUB</a></p>
+                    <p><b>BLOGOUT</b> / PROJET <strong>PHP</strong> / 2021 / <a href="https://github.com/emma-laprevote/blog"><i class="fab fa-github-alt"></i> GITHUB</a></p>
             </div>
             <div class="descriptionProject2">
                 <h2 class="des"><i class="material-icons left">expand_more</i>Description du projet</h2>

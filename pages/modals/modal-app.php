@@ -12,7 +12,7 @@
         <div class="contentColumn">
             <div id="titleProject2">
                 <h1>#APP FAV</h1>
-                    <p><b>APP FAVORITES</b> / PROJET <strong>HTML5/CSS3</strong> / 2020 / <a style="color: white;" href="https://github.com/emma-laprevote/app-favorites"><i style="color: white; font-size: 1.2em;" class="fab fa-github-alt"></i> GITHUB</a></p>
+                    <p><b>APP FAVORITES</b> / PROJET <strong>HTML5/CSS3</strong> / 2020 / <a href="https://github.com/emma-laprevote/app-favorites"><i class="fab fa-github-alt"></i> GITHUB</a></p>
             </div>
             <div class="descriptionProject3">
                 <h2 class="des"><i class="material-icons left">expand_more</i>Description du projet</h2>
