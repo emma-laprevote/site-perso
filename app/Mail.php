@@ -1,16 +1,7 @@
 <?php
+$bdd = new PDO('mysql:host=localhost;dbname=emma-laprevote_mysite;charset=utf8', 'emma-laprevote', 'Hpgbcu-13');
 
-require_once '../vendor/autoload.php';
-use \PHPMailer\PHPMailer\PHPMailer;
-use \PHPMailer\PHPMailer\Exception;
-use \PHPMailer\PHPMailer\SMTP;
-
-require '../vendor/phpmailer/phpmailer/src/Exception.php';
-require '../vendor/phpmailer/phpmailer/src/PHPMailer.php';
-require '../vendor/phpmailer/phpmailer/src/SMTP.php';
-
-
-        if(empty($_POST['nom']) && empty($_POST['prenom']) && empty($_POST['mail']) && empty($_POST['objet']) && empty($_POST['message'])){
+        if(empty($_POST['nom']) || empty($_POST['prenom']) || empty($_POST['email']) || empty($_POST['object']) || empty($_POST['message'])){
             echo 'wrong';
         }
 
@@ -22,34 +13,13 @@ require '../vendor/phpmailer/phpmailer/src/SMTP.php';
             $message = htmlspecialchars(trim($_POST['message']));
 
 
-            $mail = new PHPMailer(true);
-
-            //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
-            $mail->isSMTP();                                            //Send using SMTP
-            $mail->Host = 'smtp.gmail.com';                     //Set the SMTP server to send through
-            $mail->SMTPAuth = true;                                   //Enable SMTP authentication
-            $mail->Username = 'laprevote.emma@gmail.com';                     //SMTP username
-            $mail->Password = 'lkanizmbebajdkmn';                               //SMTP password
-            $mail->SMTPSecure = 'tls';         //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
-            $mail->Port = 587;                                  //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
-
-            //Recipients
-            $mail->setFrom($email);
-            $mail->addAddress('emma.laprevote@laplateforme.io', 'CONTACT EMKA');     //Add a recipient
-
-
-            //Content
-            $mail->isHTML(true);                                  //Set email format to HTML
-            $mail->Subject = 'CONTACT - EMKA SITE PERSO';
-            $mail->Body = '<div>
-                              <span><b>Nom</b> : '.$nom.'</span><br>
-                              <span><b>Prenom</b> : '.$prenom.'</span><br>
-                              <span><b>Email</b> : '.$email.'</span><br>
-                              <span><b>Email</b> : '.$object.'</span><br>
-                              <span><b>Message</b> : '.$message.'</span>
-                          </div>';
-
-            $mail->send();
+            $req = $bdd->prepare("INSERT INTO message (nom, prenom, email, object, message) VALUES (:nom, :prenom, :email, :object, :message)");
+            $req->bindValue(':nom', $nom, PDO::PARAM_STR);
+            $req->bindValue(':prenom', $prenom, PDO::PARAM_STR);
+            $req->bindValue(':email', $email, PDO::PARAM_STR);
+            $req->bindValue(':object', $object, PDO::PARAM_STR);
+            $req->bindValue(':message', $message, PDO::PARAM_STR);
+            $req->execute();
              echo "succes";
 
         }
