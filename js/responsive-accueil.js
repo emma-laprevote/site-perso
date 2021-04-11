@@ -1,36 +1,11 @@
 // SCRIPT RESPONSIVE JQUERIES
 if (window.matchMedia("(min-width:280px)").matches && window.matchMedia("(max-width:900px)").matches) {
 
-    /*Animation chargement de la page à l'aide de la libraire GSAP*/
-    const logo = document.querySelector('.transition__logo');
-    const frameBlack = document.querySelector('.page-transition__black');
-    const frameRed = document.querySelector('.page-transition__red');
+    $('.page-transition__red').remove();
+    $('.page-transition__black').remove();
+    $('.transition__logo').remove();
 
-    let tltransition = new TimelineMax({paused:true})
-        .fromTo(frameRed, 2.2, {scaleX: 0},{scaleX: 1, transformOrigin:'left', ease: Power4.easeInOut})
-        .fromTo(frameBlack, 2.2, {scaleX: 0},{scaleX: 1, transformOrigin:'left', ease: Power4.easeInOut}, "-=1.85")
-        .fromTo(logo, 1.6, {xPercent: -100, autoAlpha:0 },{xPercent: 0, autoAlpha:1, ease: Power4.easeInOut},"-=1.8")
-        .addPause() // When we play the Timeline .. this will make it pause until we are ready to continue
-        .set(frameRed, {scaleX:0})
-        .to(frameBlack, 2.2, {scaleX: 0, transformOrigin:'right', ease: Power4.easeInOut})
-        .to(logo, .2, {autoAlpha:0 },'-=1.2')
-
-    $('#siteComplet').hide();
-
-    window.addEventListener('load', function(){
-        tltransition.play(0);
-
-        window.onload = function() {
-            var waitForPaused = setInterval( function(){
-                if( tltransition.paused() && tltransition.progress() > 0 ){
-                    clearInterval(waitForPaused);
-                    tltransition.play();
-                    setInterval(function(){$('#siteComplet').fadeIn(3000);}, 1000)
-                }
-            }, 100 );
-
-        };
-    })
+    $('#siteComplet').show();
 
     $(document).ready(function(){
         $('.sidenav').sidenav();
@@ -135,6 +110,12 @@ if (window.matchMedia("(min-width:280px)").matches && window.matchMedia("(max-wi
     $('#logoF').css("width", "30%")
 
     if(window.matchMedia("(min-width:280px)").matches && window.matchMedia("(max-width:500px)").matches){
+
+        $('.page-transition__red').remove();
+        $('.page-transition__black').remove();
+        $('.transition__logo').remove();
+
+        $('#siteComplet').show();
 
         $('#presentEmma').css("margin", "6em 0 0 3em");
         $('#typoLogoMenu').css({
