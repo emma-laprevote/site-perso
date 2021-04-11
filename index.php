@@ -113,8 +113,8 @@
             <div class="project__bg"></div>
                 <div id="titleSection">
                     <h1>projets</h1>
-                    <p>Une petite selection de quelques projets réaliser depuis le début de l'année jusqu'à maintenant.
-                    Vous pouvez retrouvez la totalité des projets sur mon  <a style="color: white;" href="https://github.com/emma-laprevote">GITHUB <i style="color: white; font-size: 1.2em;" class="fab fa-github-alt"></i></a>.</p>
+                    <p>Une petite selection de quelques projets réalisés depuis le début de l'année jusqu'à maintenant.
+                    Vous pouvez retrouver la totalité des projets sur mon  <a style="color: white;" href="https://github.com/emma-laprevote">GITHUB <i style="color: white; font-size: 1.2em;" class="fab fa-github-alt"></i></a>.</p>
                 </div>
                 <div id="carousel">
                    <div class="hideLeft">
