@@ -29,10 +29,6 @@ window.addEventListener('load', function(){
     };
 })
 
-
-
-
-
 window.onload = function () {
     $('#siteComplet').hide();
     tltransition.play(0);
