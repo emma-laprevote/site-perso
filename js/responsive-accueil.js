@@ -64,11 +64,23 @@ if (window.matchMedia("(min-width:280px)").matches && window.matchMedia("(max-wi
     })
 
     $('#html').css("width", "14%")
+    $('#html').css({
+        height: "3.5em"
+    })
     $('#css').css("width", "14%")
+    $('#css').css({
+        height: "3.5em"
+    })
     $('#composer').css("width", "14%")
     $('#js').css("width", "15%")
+    $('#adobe').css({
+        height: "3.5em"
+    })
 
     $('#adobe').css("width", "19%")
+    $('#adobe').css({
+        height: "3.5em"
+    })
     $('#jQuery').css("width", "20%")
     $('#git').css("width", "19%")
     $('#git').css("height", "2.5em")
